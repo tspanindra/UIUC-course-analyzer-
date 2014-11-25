@@ -30,7 +30,7 @@
 		</div>
 
 		<div class="footer">
-		<input type="submit" name="submit" value="Enter" class="button" />
+		<input type="submit" name="submit" value="Login" class="button" />
 		</div>
 	
 	</form>
