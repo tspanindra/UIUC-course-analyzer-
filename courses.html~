@@ -7,16 +7,16 @@
 	UIUC course analyzer
     </title>
     <script language="javascript" src="js/jquery-1.6.1.min.js"></script>
-    <script language="javascript" src="js/index.js"></script>
+    <script language="javascript" src="js/courses.js"></script>
 
     <link rel="stylesheet" href="css/courses.css">
 </head>
 <body>
 
-<div id="wrapper">
+   <div id="coursestable">
+		
 
-
-</div>
+   </div>
 
 
 </body>
