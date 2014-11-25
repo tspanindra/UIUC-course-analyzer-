@@ -15,22 +15,24 @@
 
 <div id="wrapper">
 
-	<form name="login-form" class="login-form" action="" method="post">
+	<form name="login-form" class="login-form" action="courses.html" method="post">
 	
 		<div class="header">
 		<h1>Course analyzer</h1>
-		<span>Enter to get information about courses in next semester!</span>
+		<span>Enter to get information about the courses in next semester!</span>
 		</div>
 	
 		<div class="content">
-		<input name="username" type="text" class="input username" placeholder="Username" />
+		<input type="radio" name="degree" value="graduate"> I'm Grad student<br><br>
+		<!--<input name="username" type="text" class="input username" placeholder="Username" /> -->
 		<div class="user-icon"></div>
-		<input name="password" type="password" class="input password" placeholder="Password" />
+		<!--<input name="password" type="password" class="input password" placeholder="Password" />-->
+		<input type="radio" name="degree" value="underGrad"> I'm UnderGrad student<br>
 		<div class="pass-icon"></div>		
 		</div>
 
 		<div class="footer">
-		<input type="submit" name="submit" value="Login" class="button" />
+		<input type="submit" name="submit" value="Enter" class="button" />
 		</div>
 	
 	</form>
