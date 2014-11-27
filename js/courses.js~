@@ -1,29 +1,14 @@
 $(document).ready(function() {
-  alert("in ready");
   getInfo();
 
 });
 
-function getInfo() {
-	var jqxhr = $.get("cs.xml", function() {
-		alert( "success" );
-	})
-
-	.done(function() {
-		alert( "second success" );
-	})
-
-	.fail(function() {
-		alert( "error" );
-	})
-
-	.always(function() {
-		alert( "finished" );
-	});
-	// Perform other work here ...
-	// Set another completion function for the request above
-
-	jqxhr.always(function() {
-		alert( "second finished" );
-	});
+ function getInfo() {
+  $.ajax({
+    url:"http://courses.illinois.edu/cisapp/explorer/schedule/2015/spring/CS.xml",
+    dataType: "xml",
+    success: function(response) {
+      alert(response);  
+    }
+  });
 }
