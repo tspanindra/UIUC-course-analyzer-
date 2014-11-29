@@ -9,11 +9,11 @@
     <script language="javascript" src="js/jquery-1.6.1.min.js"></script>
     <script language="javascript" src="js/courses.js"></script>
 
-    <link rel="stylesheet" href="css/courses.css">
+    <!--<link rel="stylesheet" href="css/courses.css">-->
 </head>
 <body>
 
-   <div id="coursestable">
+   <div id="coursesTable">
 		
 
    </div>
