@@ -68,7 +68,11 @@ coursesMap[599] = "Thesis Research";
 
 function getInfo() {
   for (key in coursesMap) {
-     var button = $('<p><button width=300px>'+key + " " +coursesMap[key]+'</button></p>');
+     var button = $('<p><button id='+key+'>'+key + " " +coursesMap[key]+'</button></p>');
+    
      $('#coursesTable').append(button);
+     $("#"+key).width(300);
+     $("#"+key).height(50);
+
   }
 }
