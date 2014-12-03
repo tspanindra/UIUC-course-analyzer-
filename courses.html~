@@ -8,8 +8,10 @@
     </title>
     <script language="javascript" src="js/jquery-1.6.1.min.js"></script>
     <script language="javascript" src="js/courses.js"></script>
+    <script type="text/javascript" src="SemantriaJavaScriptSDK.js"></script>
 
-    <!--<link rel="stylesheet" href="css/courses.css">-->
+
+    <link rel="stylesheet" href="css/courses.css">
 </head>
 <body>
 
