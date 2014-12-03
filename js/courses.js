@@ -4,7 +4,6 @@ consumerSecret = "fa186e47-3a77-40ac-842f-324b101eff96";
 
 $(document).ready(function() {
   getCSSubjects();
-  drawVenn();
   //readSurvey();
   //runTestApp();
   //scrollToElement('#themes');
@@ -19,6 +18,77 @@ function scrollToElement(selector, callback){
         callback = null;
     });
 }
+
+function givePrerequisites(text) {
+	var result = [];
+	if(text == " Machine Learning") {
+		result.push("Introduction to Data Mining");
+		result.push("Text Information Systems");
+	}
+	else if(text= " System Programming") {
+		result.push("so difficult, worth the effort, great professor");
+		result.push("easy exam, interesting material and mp, great professor");
+	}
+	else if(text == " Social visualization") {
+		result.push("great professor..! But too much work. Too many designs and project implementations!");
+		result.push("Project heavy course, interesting lectures, great professor");
+	}
+	return result;
+}
+
+function giveContinuationSubjects(text) {
+	var result = [];
+	if(text == " Machine Learning") {
+		result.push("Machine Learning in NLP");
+		result.push("Advanced Information Retrieval");
+	}
+	else if(text = " System Programming") {
+		result.push("so difficult, worth the effort, great professor");
+		result.push("easy exam, interesting material and mp, great professor");
+	}
+	else if(text == " Social visualization") {
+		result.push("great professor..! But too much work. Too many designs and project implementations!");
+		result.push("Project heavy course, interesting lectures, great professor");
+	}
+	return result;
+}
+
+function giveRecommendedSubjects(text) {
+	var result = [];
+	if(text == " Machine Learning") {
+		result.push("Introduction to Data Mining");
+		result.push("Social Visualization");
+	}
+	else if(text = " System Programming") {
+		result.push("so difficult, worth the effort, great professor");
+		result.push("easy exam, interesting material and mp, great professor");
+	}
+	else if(text == " Social visualization") {
+		result.push("great professor..! But too much work. Too many designs and project implementations!");
+		result.push("Project heavy course, interesting lectures, great professor");
+	}
+	return result;
+}
+
+function giveSubjectsCode(text) {
+	var subjectCode = "";
+	alert(text == "Social Visualization");
+	if(text == "Machine Learning") {
+		subjectCode = "446";
+	}	
+	else if(text == "Social Visualization") {
+		subjectCode = "467";
+	}
+	else if(text == "Introduction to Data Mining") {
+		subjectCode = "412";	
+	}
+
+	else if(text = "System Programming") {
+		subjectCode = "241";
+	}
+	return subjectCode;
+}
+
 
 function log(message) {
 		$('#themes').append(message + "<br/>");
@@ -78,6 +148,7 @@ function getCSSubjects() {
 				//alert( $( this ).text());
 				scrollToElement('#themes');
 				startSemantria($(this).text());
+				drawVenn($(this).text());
 			});
 				 
 		     $('#coursesTable').append(button);
@@ -88,14 +159,26 @@ function getCSSubjects() {
 	});
 }
 
-function drawVenn() {
-var sets = [{label: "CS425", size: 15}, {label: "CS467", size: 8}, {label: "CS412", "size":7}],
-    overlaps = [{sets: [0,1], size: 5}, {sets: [1,2], size: 4}, {sets: [0,2], size: 5}];
-var colours = ['black', 'red', 'blue', 'green']
-             
-// get positions for each set
-sets = venn.venn(sets, overlaps);
-diagram = venn.drawD3Diagram(d3.select("#rings"), sets, 300, 300);
+
+function drawVenn(text) {
+	var sub = text.split(":");
+	var prerequisites = givePrerequisites(sub[1]);
+	var continuationSibjects = giveContinuationSubjects(sub[1]);
+	var recommendedSubjects = giveRecommendedSubjects(sub[1]);
+
+	var subjectCodes = [];
+	for(var i = 0; i < recommendedSubjects.length; i++) {
+		//alert(recommendedSubjects[i] + giveSubjectsCode(recommendedSubjects[i]));
+		subjectCodes[i] = giveSubjectsCode(recommendedSubjects[i]);
+	}
+
+	var sets = [{label: ""+sub[0], size: 15}, {label: ""+subjectCodes[0], size: 8}, {label: ""+subjectCodes[1], "size":7}],
+	    overlaps = [{sets: [0,1], size: 5}, {sets: [1,2], size: 4}, {sets: [0,2], size: 5}];
+	var colours = ['black', 'red', 'blue', 'green'];
+	             
+	// get positions for each set
+	sets = venn.venn(sets, overlaps);
+	diagram = venn.drawD3Diagram(d3.select("#rings"), sets, 300, 300);
 /* diagram.circles.style("fill-opacity", 0)
               .style("stroke-width", 10)
               .style("stroke-opacity", .5)
@@ -120,54 +203,6 @@ diagram = venn.drawD3Diagram(d3.select("#rings"), sets, 300, 300);
               node.select("text").style("font-weight", "100")
               .style("font-size", "24px");
               });
-
-/*
-	 var sets = [{label : 'SE', size : 28}, {label : 'Treat', size: 35},
-              {label : 'Anti-CCP', size : 108}, {label : 'DAS28', size:106}],
-              
-              overlaps = [{sets : [0,1], size:1},
-              {sets : [0,2], size:1},
-              {sets : [0,3], size:14},
-              {sets : [1,2], size:6},
-              {sets : [1,3], size:0},
-              {sets : [2,3], size:1},
-              {sets : [0,2,3], size:1},
-              {sets : [0,1,2], size:0},
-              {sets : [0,1,3], size:0},
-              {sets : [1,2,3], size:0},
-              {sets : [0,1,2,3], size:0}
-              ];
-
-              var diagram = venn.drawD3Diagram(d3.select("#rings"),
-              venn.venn(sets, overlaps),
-              500, 500);
-              var colours = ['black', 'red', 'blue', 'green']
-             
-              diagram.circles.style("fill-opacity", 0)
-              .style("stroke-width", 10)
-              .style("stroke-opacity", .5)
-              .style("fill", function(d,i) { return colours[i]; })
-              .style("stroke", function(d,i) { return colours[i]; });
-             
-              diagram.text.style("fill", function(d,i) { return colours[i]})
-              .style("font-size", "24px")
-              .style("font-weight", "100");
-             
-              diagram.nodes
-              .on("mouseover", function(d, i) {
-              var node = d3.select(this).transition();
-              node.select("circle").style("fill-opacity", .1);
-              node.select("text").style("font-weight", "100")
-              .style("font-size", "36px");
-              })
-             
-              .on("mouseout", function(d, i) {
-              var node = d3.select(this).transition();
-              node.select("circle").style("fill-opacity", 0);
-              node.select("text").style("font-weight", "100")
-              .style("font-size", "24px");
-              });
-  */       
 }
 
 function getInitialText(text) {
@@ -180,7 +215,7 @@ var result = [];
 		result.push("A lot of paper reading and critiquing although the set of papers were very interesting");
 		result.push("horrible professor, easy exams, okay MPs");
 	}
-	else if(sub[1] = "System Programming") {
+	else if(sub[1] = " System Programming") {
 		result.push("so difficult, worth the effort, great professor");
 		result.push("easy exam, interesting material and mp, great professor");
 		result.push("Very hard to get help in the class unless you start really early for the MP because of the way Chara queue works");
@@ -192,12 +227,12 @@ var result = [];
 		result.push("great TAs and instructor");
 		result.push("professor difficult to understand");
 	}
-	else if(sub[1] == "Social visualization") {
+	else if(sub[1] == " Social visualization") {
 		result.push("great professor..! But too much work. Too many designs and project implementations!");
 		result.push("Project heavy course, interesting lectures, great professor");
 		result.push("creativity, interesting, helpful professor, learning a lot");
 	}
-	else if(sub[1] == "User Interface Design") {
+	else if(sub[1] == " User Interface Design") {
 		result.push("great professor..! But too much work. Too many designs and project implementations!");
 		result.push("Great lecturing professor, needs more application of learned material");
 		result.push("Hard exams.  Easy projects.");
