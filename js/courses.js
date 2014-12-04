@@ -311,8 +311,45 @@ function opendialog() {
   $dialog.dialog('open');
 } 
 
+function getInterestingRatings(text) {
+	var rating = "";
+	//alert(text);
+	if(text == 446) {
+		rating = 0.4;
+	}
+	else if (467) {
+		rating = 0.6;
+	}
+	else if(412) {
+		rating = 0.6;
+	}
+	else if(241) {
+		rating = 0.7;
+	}
+	return rating;
+}
+
+function getDifficlutyRatings(text) {
+	var rating = "";
+	//alert(text);
+	if(text == 446) {
+		rating = 0.8;
+	}
+	else if (467) {
+		rating = 0.6;
+	}
+	else if(412) {
+		rating = 0.8;
+	}
+	else if(241) {
+		rating = 0.4;
+	}
+	return rating;
+}
+
 
 function launchAlert(subjectCode) {
+
 	 $("#dialog-5").dialog({
         title: giveSubjectName(subjectCode),
         autoOpen: false,
@@ -326,7 +363,26 @@ function launchAlert(subjectCode) {
    ($("#dialog-5").dialog("isOpen") == false) ? $("#dialog-5").dialog("open") : $("#dialog-5").dialog("close") ;
      var prerequisites = "Prerequisites : " + prerequisites[0] + " , " + prerequisites[1];
      var continuation = "Continuation : " + continuation[0] + " , " + continuation[1];
-	 $("#dialog-5").html('<p>' + prerequisites+ '</p> <p>' + continuation + '</p>' );
+	 $("#dialog-5").html('<p>' + prerequisites+ '</p> <p>' + continuation + '</p> <div id="rating"></div> <br></br> <div id="rating1"></div>'  );
+
+	 	$('#rating').starbox({
+    	average: getInterestingRatings(subjectCode),
+    	changeable: 'once',
+    	autoUpdateAverage: true,
+    	ghosting: true
+	});
+	 	$('#rating').append("  Interesting!");
+
+	 	$('#rating1').starbox({
+    	average: getDifficlutyRatings(subjectCode),
+    	changeable: 'once',
+    	autoUpdateAverage: true,
+    	ghosting: true
+	});
+
+	 	$('#rating1').append("  Difficult!");
+	 	$('#rating1').css("text-align", "top");
+
 }
 
 	function processResponse(items, text) {
