@@ -172,7 +172,7 @@ function getCSSubjects() {
 			$(button).bind( "click", function(e) {
 				//alert( $( this ).text());
 				scrollToElement('#themes');
-				//startSemantria($(this).text());
+				startSemantria($(this).text());
 
 				drawVenn($(this).text());
 			});
@@ -218,9 +218,6 @@ function drawVennDiagram(subjectCode1, subjectCode2, id, subjectInfo) {
               })
 
               .on("click", function(d, i) {
-              	//alert("On mmouse");
-              	//alert(d + i);
-              	//alert($(this).text());
               	//alert(JSON.stringify(d));
               	  launchAlert($(this).text());
               	//writeSubjectInfo($(this).text(), subjectInfoIds[i]);
