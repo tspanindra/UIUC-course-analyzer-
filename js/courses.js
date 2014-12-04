@@ -121,9 +121,10 @@ function log(message) {
 
 function logTheme(id, theme, sentiment_score, text) {
 	 	$('#themes').append("<span id ="+id+">"+ theme + "</span></br>");
-	 	var negative = ["#FF0000","#666666","#003366"];
-	 	var positive = ["#00FF00", 	"#FFCC00", "#FF9900"]
+	 	var positive = ["#FF0000","#666666","#003366"];
+	 	var  negative = ["#00FF00", 	"#FFCC00", "#FF9900"]
 	 	var select = [];
+	 	//alert(sentiment_score);
 	 	if(parseInt(sentiment_score) > 0) {
 	 		select = positive;
 	 	}
@@ -172,6 +173,9 @@ function getCSSubjects() {
 			$(button).bind( "click", function(e) {
 				//alert( $( this ).text());
 				scrollToElement('#themes');
+				$('#themes').empty();
+				$('#rings').empty();
+				$('#rings1').empty();
 				startSemantria($(this).text());
 
 				drawVenn($(this).text());
@@ -188,7 +192,7 @@ function getCSSubjects() {
 function drawVennDiagram(subjectCode1, subjectCode2, id, subjectInfo) {
 	//alert(giveSubjectName(subjectCode1));
 
-	var sets = [{label: ""+subjectCode1, size: 10}, {label: ""+subjectCode2, size: 10}],
+	var sets = [{label: ""+subjectCode1, size: 12}, {label: ""+subjectCode2, size: 10}],
     overlaps = [{sets: [0,1], size: 2}];
 	var colours = ['black', 'red', 'blue', 'green'];
 	             
@@ -219,6 +223,7 @@ function drawVennDiagram(subjectCode1, subjectCode2, id, subjectInfo) {
 
               .on("click", function(d, i) {
               	//alert(JSON.stringify(d));
+
               	  launchAlert($(this).text());
               	//writeSubjectInfo($(this).text(), subjectInfoIds[i]);
               });
@@ -349,7 +354,6 @@ function getDifficlutyRatings(text) {
 
 
 function launchAlert(subjectCode) {
-
 	 $("#dialog-5").dialog({
         title: giveSubjectName(subjectCode),
         autoOpen: false,
