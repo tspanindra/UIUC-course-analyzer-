@@ -1,6 +1,7 @@
 var consumerKey = "9010759f-252c-4eaa-a944-67d44f1c94a6",
 consumerSecret = "fa186e47-3a77-40ac-842f-324b101eff96";
 
+var subjectInfoIds = []
 
 $(document).ready(function() {
   getCSSubjects();
@@ -26,12 +27,12 @@ function givePrerequisites(text) {
 		result.push("Text Information Systems");
 	}
 	else if(text= " System Programming") {
-		result.push("so difficult, worth the effort, great professor");
-		result.push("easy exam, interesting material and mp, great professor");
+		result.push("Computer Architecture");
+		result.push("Data Structures");
 	}
 	else if(text == " Social visualization") {
-		result.push("great professor..! But too much work. Too many designs and project implementations!");
-		result.push("Project heavy course, interesting lectures, great professor");
+		result.push("User Interface Design");
+		result.push("Text Information Systems");
 	}
 	return result;
 }
@@ -43,12 +44,12 @@ function giveContinuationSubjects(text) {
 		result.push("Advanced Information Retrieval");
 	}
 	else if(text = " System Programming") {
-		result.push("so difficult, worth the effort, great professor");
-		result.push("easy exam, interesting material and mp, great professor");
+		result.push("Communication Networks");
+		result.push("Operating Systems Design");
 	}
 	else if(text == " Social visualization") {
-		result.push("great professor..! But too much work. Too many designs and project implementations!");
-		result.push("Project heavy course, interesting lectures, great professor");
+		result.push("Human-Computer Interaction");
+		result.push("Interactive Computer Graphics");
 	}
 	return result;
 }
@@ -60,33 +61,49 @@ function giveRecommendedSubjects(text) {
 		result.push("Social Visualization");
 	}
 	else if(text = " System Programming") {
-		result.push("so difficult, worth the effort, great professor");
-		result.push("easy exam, interesting material and mp, great professor");
+		result.push("Computer Architecture");
+		result.push("Numerical Methods I");
 	}
 	else if(text == " Social visualization") {
-		result.push("great professor..! But too much work. Too many designs and project implementations!");
-		result.push("Project heavy course, interesting lectures, great professor");
+		result.push("Introduction to Data Mining ");
+		result.push("Distributed Systems");
 	}
 	return result;
 }
 
 function giveSubjectsCode(text) {
 	var subjectCode = "";
-	alert(text == "Social Visualization");
 	if(text == "Machine Learning") {
-		subjectCode = "446";
+		subjectCode = 446;
 	}	
 	else if(text == "Social Visualization") {
-		subjectCode = "467";
+		subjectCode = 467;
 	}
 	else if(text == "Introduction to Data Mining") {
-		subjectCode = "412";	
+		subjectCode = 412;	
 	}
-
 	else if(text = "System Programming") {
-		subjectCode = "241";
+		subjectCode = 241;
 	}
 	return subjectCode;
+}
+
+function giveSubjectName(text) {
+	var subjectName = "";
+	//alert(text);
+	if(text == 446) {
+		subjectName = " Machine Learning";
+	}	
+	else if(text == 467) {
+		subjectName = " Social Visualization";
+	}
+	else if(text == 412) {
+		subjectName = " Introduction to Data Mining";	
+	}
+	else if(text = 241) {
+		subjectName = " System Programming";
+	}
+	return subjectName;
 }
 
 
@@ -147,7 +164,8 @@ function getCSSubjects() {
 			$(button).bind( "click", function(e) {
 				//alert( $( this ).text());
 				scrollToElement('#themes');
-				startSemantria($(this).text());
+				//startSemantria($(this).text());
+
 				drawVenn($(this).text());
 			});
 				 
@@ -159,32 +177,19 @@ function getCSSubjects() {
 	});
 }
 
+function drawVennDiagram(subjectCode1, subjectCode2, id, subjectInfo) {
+	//alert(giveSubjectName(subjectCode1));
 
-function drawVenn(text) {
-	var sub = text.split(":");
-	var prerequisites = givePrerequisites(sub[1]);
-	var continuationSibjects = giveContinuationSubjects(sub[1]);
-	var recommendedSubjects = giveRecommendedSubjects(sub[1]);
-
-	var subjectCodes = [];
-	for(var i = 0; i < recommendedSubjects.length; i++) {
-		//alert(recommendedSubjects[i] + giveSubjectsCode(recommendedSubjects[i]));
-		subjectCodes[i] = giveSubjectsCode(recommendedSubjects[i]);
-	}
-
-	var sets = [{label: ""+sub[0], size: 15}, {label: ""+subjectCodes[0], size: 8}, {label: ""+subjectCodes[1], "size":7}],
-	    overlaps = [{sets: [0,1], size: 5}, {sets: [1,2], size: 4}, {sets: [0,2], size: 5}];
+	var sets = [{label: ""+subjectCode1, size: 10}, {label: ""+subjectCode2, size: 10}],
+    overlaps = [{sets: [0,1], size: 2}];
 	var colours = ['black', 'red', 'blue', 'green'];
 	             
 	// get positions for each set
+	subjectInfoIds.push(subjectInfo);
+
 	sets = venn.venn(sets, overlaps);
-	diagram = venn.drawD3Diagram(d3.select("#rings"), sets, 300, 300);
-/* diagram.circles.style("fill-opacity", 0)
-              .style("stroke-width", 10)
-              .style("stroke-opacity", .5)
-              .style("fill", function(d,i) { return colours[i]; })
-              .style("stroke", function(d,i) { return colours[i]; });
-   */            
+	diagram = venn.drawD3Diagram(d3.select("#"+id), sets, 300, 300);
+          
               diagram.text.style("fill", function(d,i) { return colours[i]})
               .style("font-size", "24px")
               .style("font-weight", "100");
@@ -202,7 +207,34 @@ function drawVenn(text) {
               node.select("circle").style("fill-opacity", 0.4);
               node.select("text").style("font-weight", "100")
               .style("font-size", "24px");
+              })
+
+              .on("click", function(d, i) {
+              	//alert("On mmouse");
+              	//alert(d + i);
+              	//alert($(this).text());
+              	//alert(JSON.stringify(d));
+              	  launchAlert($(this).text());
+              	//writeSubjectInfo($(this).text(), subjectInfoIds[i]);
               });
+
+}
+
+function drawVenn(text) {
+	var sub = text.split(":");
+	var recommendedSubjects = giveRecommendedSubjects(sub[1]);
+
+	var subjectCodes = [];
+	for(var i = 0; i < recommendedSubjects.length; i++) {
+		//alert(recommendedSubjects[i] + giveSubjectsCode(recommendedSubjects[i]));
+		subjectCodes[i] = giveSubjectsCode(recommendedSubjects[i]);
+	}
+
+	drawVennDiagram(sub[0], subjectCodes[0], "rings", "subjectInfo");
+	drawVennDiagram(sub[0], subjectCodes[1], "rings1", "subjectInfo1");
+	/*var sets = [{label: ""+sub[0], size: 15}, {label: ""+subjectCodes[0], size: 8}, {label: ""+subjectCodes[1], "size":7}],
+	    overlaps = [{sets: [0,1], size: 5}, {sets: [1,2], size: 4}, {sets: [0,2], size: 5}];*/
+	
 }
 
 function getInitialText(text) {
@@ -254,6 +286,23 @@ var result = [];
 return result;
 }
 
+ $(function(){
+         });
+
+function launchAlert(subjectCode) {
+	 $("#dialog-5").dialog({
+        autoOpen: false
+    });
+
+	var prerequisites = givePrerequisites(giveSubjectName(subjectCode));
+	var continuation = giveContinuationSubjects(giveSubjectName(subjectCode));
+
+   ($("#dialog-5").dialog("isOpen") == false) ? $("#dialog-5").dialog("open") : $("#dialog-5").dialog("close") ;
+     var prerequisites = "Prerequisites : " + prerequisites[0] + " , " + prerequisites[1];
+     var continuation = "Continuation : " + continuation[0] + " , " + continuation[1];
+	 $("#dialog-5").html('<p>' + prerequisites+ '</p> <p>' + continuation + '</p>' );
+}
+
 	function processResponse(items, text) {
 		
 		for(var i = 0; i < items.length; i ++ ) {
@@ -279,7 +328,7 @@ return result;
 	function startSemantria(text) {
 		var initialTexts = getInitialText(text);
 		
-		log("<h1>" + text +"</h1>");
+		log("<h3>" + text +"</h3>");
 		// session is a global object
 		SemantriaActiveSession = new Semantria.Session(consumerKey, consumerSecret, "myApp");
 		SemantriaActiveSession.override({
