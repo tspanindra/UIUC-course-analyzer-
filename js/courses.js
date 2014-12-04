@@ -34,11 +34,16 @@ function givePrerequisites(text) {
 		result.push("User Interface Design");
 		result.push("Text Information Systems");
 	}
+	else if(text == " Introduction to Data Mining") {
+		result.push("Database Systems");
+		result.push("Intro to Combinatorics");
+	}
 	return result;
 }
 
 function giveContinuationSubjects(text) {
 	var result = [];
+	alert(text);
 	if(text == " Machine Learning") {
 		result.push("Machine Learning in NLP");
 		result.push("Advanced Information Retrieval");
@@ -50,6 +55,10 @@ function giveContinuationSubjects(text) {
 	else if(text == " Social visualization") {
 		result.push("Human-Computer Interaction");
 		result.push("Interactive Computer Graphics");
+	}
+	else if(text == " Introduction to Data Mining") {
+		result.push("Data Mining Principles");
+		result.push("Machine Learning");
 	}
 	return result;
 }
@@ -133,14 +142,14 @@ function logTheme(id, theme, sentiment_score, text) {
 			//alert(String($(this).text()));
 			if(String(hoverText[i]).indexOf($(this).text()) > 0) {
 				selectText = hoverText[i];
-				//alert(selectText);
-				break;
+				////alert(selectText);
 			}
 		}
 		$('#'+id).attr('title', selectText);
+		
+		
 		});
 	}
-
 
 function getCSSubjects() {
 	$.ajax({
@@ -164,7 +173,7 @@ function getCSSubjects() {
 			$(button).bind( "click", function(e) {
 				//alert( $( this ).text());
 				scrollToElement('#themes');
-				//startSemantria($(this).text());
+				startSemantria($(this).text());
 
 				drawVenn($(this).text());
 			});
@@ -286,8 +295,24 @@ var result = [];
 return result;
 }
 
- $(function(){
-         });
+function opendialog() {
+	alert("dialog");
+  var $dialog = $('#somediv')
+  .html('<iframe style="border: 0px; " src="chart.html" width="100%" height="100%"></iframe>')
+  .dialog({
+    title: "Page",
+    autoOpen: false,
+    dialogClass: 'dialog_fixed,ui-widget-header',
+    modal: true,
+    height: 800,
+    minWidth: 1000,
+    minHeight: 400,
+    draggable:true,
+    /*close: function () { $(this).remove(); },*/
+    buttons: { "Ok": function () {         $(this).dialog("close"); } }
+  });
+  $dialog.dialog('open');
+} 
 
 function launchAlert(subjectCode) {
 	 $("#dialog-5").dialog({

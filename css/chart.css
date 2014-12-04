@@ -1,0 +1,108 @@
+.flowchart-demo .item { border:3px solid #333;
+box-shadow: 2px 2px 19px #aaa;
+   -o-box-shadow: 2px 2px 19px #aaa;
+   -webkit-box-shadow: 2px 2px 19px #aaa;
+   -moz-box-shadow: 2px 2px 19px #aaa;
+-moz-border-radius:0.5em;
+border-radius:0.5em;
+opacity:0.8;
+filter:alpha(opacity=80);
+
+text-align:center;
+z-index:20; position:absolute;
+color:black;
+font-family:helvetica;padding:0.5em;
+font-size:1em;
+  width: 45px;
+  height: 45px;
+}
+
+.flowchart-demo .item:hover {
+	box-shadow: 2px 2px 19px #444;
+   -o-box-shadow: 2px 2px 19px #444;
+   -webkit-box-shadow: 2px 2px 19px #444;
+   -moz-box-shadow: 2px 2px 19px #444;
+    opacity:0.6;
+	filter:alpha(opacity=60);
+}
+
+.flowchart-demo .active {
+	border:1px dotted green;
+}
+.flowchart-demo .hover {
+	border:1px dotted red;
+}
+
+.flowchart-demo ._jsPlumb_connector { z-index:4; }
+.flowchart-demo ._jsPlumb_endpoint, .endpointTargetLabel, .endpointSourceLabel{ z-index:21;cursor:pointer; }
+
+.flowchart-demo .aLabel {
+ 	background-color:white; 
+	padding:0.4em; 
+	font:12px sans-serif; 
+	color:#444;
+	z-index:21;
+	border:1px dotted gray;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	cursor: pointer;
+}
+.flowchart-demo .aLabel._jsPlumb_hover {
+	background-color:#5C96BC;
+	color:white;	
+	border:1px solid white;
+}
+
+
+/** ELEMENT POSITIONS **/
+#undergrad {width:930px; position: absolute;
+  left: 50%;
+  margin-left: -465px;}
+
+#CS100 { left:0px;top:0px;position:absolute;}
+#CS103 { left:400px;top:0px;position:absolute;}
+
+#CS125 { left:0px;top:70px;position:absolute;}
+
+#CS173 { left:0px;top:140px;position:absolute;}
+#CS225 { left:400px;top:140px;position:absolute;}
+
+#CS373 { left:0px;top:210px;position:absolute;}
+#CS411 { left:80px;top:210px;position:absolute;}
+#CS410 { left:160px;top:210px;position:absolute;}
+#CS233 { left:400px;top:210px;position:absolute;}
+#CS418 { left:720px;top:210px;position:absolute;}
+#CS466 { left:800px;top:210px;position:absolute;}
+#CS465 { left:880px;top:210px;position:absolute;}
+
+#CS412 { left:160px;top:280px;position:absolute;}
+#CS241 { left:400px;top:280px;position:absolute;}
+#CS419 { left:720px;top:280px;position:absolute;}
+#CS473 { left:800px;top:280px;position:absolute;}
+#CS467 { left:880px;top:280px;position:absolute;}
+
+#CS357 { left:0px;top:350px;position:absolute;}
+#CS426 { left:80px;top:350px;position:absolute;}
+#CS431 { left:160px;top:350px;position:absolute;}
+#CS438 { left:240px;top:350px;position:absolute;}
+#CS423 { left:320px;top:350px;position:absolute;}
+#CS242 { left:400px;top:350px;position:absolute;}
+#CS440 { left:560px;top:350px;position:absolute;}
+#CS461 { left:640px;top:350px;position:absolute;}
+#CS498-AMC { left:800px;top:350px;position:absolute;}
+#CS498-SCI { left:880px;top:350px;position:absolute;}
+
+#CS498-PRO { left:0px;top:420px;position:absolute;}
+#CS477 { left:80px;top:420px;position:absolute;}
+#CS424 { left:160px;top:420px;position:absolute;}
+#CS427 { left:400px;top:420px;position:absolute;}
+#CS429 { left:480px;top:420px;position:absolute;}
+#CS446 { left:560px;top:420px;position:absolute;}
+#CS460 { left:640px;top:420px;position:absolute;}
+
+#CS450 { left:0px;top:490px;position:absolute;}
+#CS425 { left:160px;top:490px;position:absolute;}
+#CS428 { left:400px;top:490px;position:absolute;}
+
+#CS498-OSP { left:400px;top:560px;position:absolute;}
+
