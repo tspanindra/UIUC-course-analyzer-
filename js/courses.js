@@ -43,7 +43,6 @@ function givePrerequisites(text) {
 
 function giveContinuationSubjects(text) {
 	var result = [];
-	alert(text);
 	if(text == " Machine Learning") {
 		result.push("Machine Learning in NLP");
 		result.push("Advanced Information Retrieval");
@@ -173,7 +172,7 @@ function getCSSubjects() {
 			$(button).bind( "click", function(e) {
 				//alert( $( this ).text());
 				scrollToElement('#themes');
-				startSemantria($(this).text());
+				//startSemantria($(this).text());
 
 				drawVenn($(this).text());
 			});
@@ -296,14 +295,15 @@ return result;
 }
 
 function opendialog() {
-	alert("dialog");
   var $dialog = $('#somediv')
   .html('<iframe style="border: 0px; " src="chart.html" width="100%" height="100%"></iframe>')
   .dialog({
-    title: "Page",
+    title: "Check recommended subjects",
     autoOpen: false,
     dialogClass: 'dialog_fixed,ui-widget-header',
     modal: true,
+    show: 'fade',
+    hide: 'fade',
     height: 800,
     minWidth: 1000,
     minHeight: 400,
@@ -314,9 +314,13 @@ function opendialog() {
   $dialog.dialog('open');
 } 
 
+
 function launchAlert(subjectCode) {
 	 $("#dialog-5").dialog({
-        autoOpen: false
+        title: giveSubjectName(subjectCode),
+        autoOpen: false,
+        show: 'highlight',
+        hide: 'scale',
     });
 
 	var prerequisites = givePrerequisites(giveSubjectName(subjectCode));

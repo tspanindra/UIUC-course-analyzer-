@@ -12,3 +12,12 @@ body {
             border: 1px solid #b9cd6d;
             color: #FFFFFF;
             font-weight: bold;
+  }
+
+
+.recommended {
+    border-radius: 5%;
+    border: 2px solid #f5f5f5;
+    overflow: hidden;
+}
+
