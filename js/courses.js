@@ -455,7 +455,7 @@ function giveSubjectName(text) {
 	else if(text == 241) {
 		subjectName = " System Programming";
 	}
-	else if(text == 437) {
+	else if(text == 467) {
 		subjectName = " Social Visualization";
 	}
 	else if(text == 465) {
@@ -591,57 +591,20 @@ function getCSSubjects() {
 			ids[i] = y[i]['id'];
 		}
 
-		/*for (var i = 0; i < courses.length; i++) {
-		     var button = $('<span><button id='+ids[i]+'>'+ids[i] + " : " +courses[i]+'</button></span>');
-			$(button).bind( "click", function(e) {
-				//alert( $( this ).text());
-				scrollToElement('#themes');
-				$('#themes').empty();
-				$('#rings').empty();
-				$('#rings1').empty();
-				startSemantria($(this).text());
-
-				drawVenn($(this).text());
-			});
-				 
-		     $('#coursesTable').append(button);
-		     $("#"+ids[i]).width(300);
-		     $("#"+ids[i]).height(70);
-	  		}*/
+		 var listOption = [];
 		for (var i = 0; i < courses.length; i++) {
-		     var listOption = $('<option id='+ids[i]+'>'+ids[i] + " : " +courses[i]+'</option>');
-		     console.log("option added : " + listOption);
-			// $("#courseList").change( function(e) {
-			// 	console.log("change happened");
-			// 	//alert( $( this ).text());
-			// 	//scrollToElement('#themes');
-			// 	$('#themes').empty();
-			// 	$('#rings').empty();
-			// 	$('#rings1').empty();
-			// 	startSemantria($(this).text());
-
-			// 	drawVenn($(this).text());
-			// });
-				 
-		     $('#coursesDropdown').find("#courseList").append(listOption);
-			console.log("size of list is now " + document.getElementById("courseList").length);
-		     //$("#"+ids[i]).width(300);
-		     //$("#"+ids[i]).height(70);
+		     listOption.push($('<option id='+ids[i]+'>'+ids[i] + " : " +courses[i]+'</option>'));	 
 	  		}
 
+	  	 $('#coursesDropdown').find("#courseList").append(listOption);
+	  	 $('select[name="options"]').find('option[value="3"]').attr("selected",true);
+	  	 
 	  		$("#courseList").change( function(e) {
 				console.log("change happened");
-				//alert( $( this ).text());
-				//scrollToElement('#themes');
 				$('#themes').empty();
 				$('#rings').empty();
-				$('#rings1').empty();
-				//startSemantria($(this).text());
-				//alert($("#courseList option:selected").val());
-				//alert($(this).text);
 				drawVenn($("#courseList option:selected").val());
 			});
-
 	    }	
 	});
 }
@@ -649,7 +612,7 @@ function getCSSubjects() {
 function drawVennDiagram(subjectCode1, subjectCode2, subjectCode3, id, subjectInfo) {
 	//alert(giveSubjectName(subjectCode1));
 
-	var sets = [{label: ""+subjectCode1, size: 10}, {label: ""+subjectCode2, size: 10}, {label: ""+subjectCode3, size: 10}],
+	var sets = [{label: ""+subjectCode2, size: 10}, {label: ""+subjectCode1, size: 10}, {label: ""+subjectCode3, size: 10}],
     overlaps = [{sets: [0,1], size: 2},{sets: [1,2], size: 2},{sets: [0,2], size: 0}];
 	var colours = ['black', 'red', 'blue', 'green'];
 	             
@@ -679,32 +642,22 @@ function drawVennDiagram(subjectCode1, subjectCode2, subjectCode3, id, subjectIn
               })
 
               .on("click", function(d, i) {
-              	//alert(JSON.stringify(d));
-
               	  launchAlert($(this).text());
-              	//writeSubjectInfo($(this).text(), subjectInfoIds[i]);
               });
-              console.log("venn diag drawn")
-
 }
 
 function drawVenn(text) {
-	console.log("venn to draw for : " + text)
 	var sub = text.split(":");
 	var recommendedSubjects = giveRecommendedSubjects(sub[1]);
-	console.log("recommendedSubjects  " + recommendedSubjects)
+	//console.log("recommendedSubjects  " + recommendedSubjects)
 	var subjectCodes = [];
 	for(var i = 0; i < recommendedSubjects.length; i++) {
 		//alert(recommendedSubjects[i] + giveSubjectsCode(recommendedSubjects[i]));
 		subjectCodes[i] = giveSubjectsCode(recommendedSubjects[i]);
-		console.log("sub code for " + recommendedSubjects[i] + " : " + subjectCodes[i])
+		//console.log("sub code for " + recommendedSubjects[i] + " : " + subjectCodes[i])
 	}
 
-	drawVennDiagram(sub[0], subjectCodes[0], subjectCodes[1], "rings", "subjectInfo");
-	drawVennDiagram(sub[0], subjectCodes[1], "rings1", "subjectInfo1");
-	/*var sets = [{label: ""+sub[0], size: 15}, {label: ""+subjectCodes[0], size: 8}, {label: ""+subjectCodes[1], "size":7}],
-	    overlaps = [{sets: [0,1], size: 5}, {sets: [1,2], size: 4}, {sets: [0,2], size: 5}];*/
-	
+	drawVennDiagram(sub[0], subjectCodes[0], subjectCodes[1], "rings", "subjectInfo");	
 }
 
 function getInitialText(text) {
