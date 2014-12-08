@@ -593,26 +593,30 @@ function getCSSubjects() {
 
 		 var listOption = [];
 		for (var i = 0; i < courses.length; i++) {
-		     listOption.push($('<option id='+ids[i]+'>'+ids[i] + " : " +courses[i]+'</option>'));	 
-	  		}
+			listOption.push($('<option id='+ids[i]+'> '+ids[i] + " : " +courses[i]+'</option>'));	 
+		}
 
-	  	 $('#coursesDropdown').find("#courseList").append(listOption);
-	  	 $('select[name="options"]').find('option[value="3"]').attr("selected",true);
-	  	 
-	  		$("#courseList").change( function(e) {
-				console.log("change happened");
-				$('#themes').empty();
-				$('#rings').empty();
-				drawVenn($("#courseList option:selected").val());
-			});
-	    }	
+	 	$('#coursesDropdown').find("#courseList").append(listOption);	  	 
+		$('#446').prop('selected', true);
+
+  		$("#courseList").change( function(e) {
+			//console.log("change happened");
+			$('#themes').empty();
+			$('#rings').empty();
+			startSemantria($(this).text());
+			drawVenn($("#courseList option:selected").val());		
+		});
+
+  		startSemantria(" Machine Learning");
+		drawVenn($("#courseList option:selected").val());
+	   }	
 	});
 }
 
 function drawVennDiagram(subjectCode1, subjectCode2, subjectCode3, id, subjectInfo) {
 	//alert(giveSubjectName(subjectCode1));
 
-	var sets = [{label: ""+subjectCode2, size: 10}, {label: ""+subjectCode1, size: 10}, {label: ""+subjectCode3, size: 10}],
+	var sets = [{label: ""+subjectCode2, size: 12}, {label: ""+subjectCode1, size: 14}, {label: ""+subjectCode3, size: 12}],
     overlaps = [{sets: [0,1], size: 2},{sets: [1,2], size: 2},{sets: [0,2], size: 0}];
 	var colours = ['black', 'red', 'blue', 'green'];
 	             
@@ -639,7 +643,7 @@ function drawVennDiagram(subjectCode1, subjectCode2, subjectCode3, id, subjectIn
               node.select("circle").style("fill-opacity", 0.4);
               node.select("text").style("font-weight", "100")
               .style("font-size", "24px");
-              })
+	            })
 
               .on("click", function(d, i) {
               	  launchAlert($(this).text());
@@ -652,7 +656,6 @@ function drawVenn(text) {
 	//console.log("recommendedSubjects  " + recommendedSubjects)
 	var subjectCodes = [];
 	for(var i = 0; i < recommendedSubjects.length; i++) {
-		//alert(recommendedSubjects[i] + giveSubjectsCode(recommendedSubjects[i]));
 		subjectCodes[i] = giveSubjectsCode(recommendedSubjects[i]);
 		//console.log("sub code for " + recommendedSubjects[i] + " : " + subjectCodes[i])
 	}
@@ -681,7 +684,7 @@ var result = [];
 		result.push("Makes theory interesting, but little to none of it appears on the hw... which I am grateful of");
 		result.push("moderately difficult exams, only 2 MPs, homework assignments are moderate");
 		result.push("great TAs and instructor");
-		result.push("professor difficult to understand");
+		result.push("professor difficult to understand");getInitialText
 	}
 	else if(sub[1] == " Social visualization") {
 		result.push("great professor..! But too much work. Too many designs and project implementations!");
