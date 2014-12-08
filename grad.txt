@@ -1,0 +1,606 @@
+Course name:
+		<Q3_216>CS 410 Text Information Systems</Q3_216>
+Recommended Prerequisites:
+Recommended continuations:
+		<Q15__216>CS 512 Data Mining Principles</Q15__216>
+		<Q15__216>CS 598 Advanced Information Retrieval</Q15__216>
+Course feedback:
+Course interestingness:
+		<Q13_1__216>1</Q13_1__216>
+		<Q13_1__216>3</Q13_1__216>
+Course ease:
+		<Q13_2__216>2</Q13_2__216>
+		<Q13_2__216>2</Q13_2__216>
+Professor feedback:
+		<Q13_3__216>1</Q13_3__216>
+		<Q13_3__216>3</Q13_3__216>
+Work needed:
+		<Q16_1__216>A final exam</Q16_1__216>
+		<Q16_2__216>A final project</Q16_2__216>
+
+
+
+Course name:
+		<Q3_217>CS 411 Database Systems</Q3_217>
+Recommended Prerequisites:
+Recommended continuations:
+		<Q15__217>CS 511 Advanced Data Management</Q15__217>
+Course feedback:
+Course interestingness:
+		<Q13_1__217>1</Q13_1__217>
+Course ease:
+		<Q13_2__217>2</Q13_2__217>
+Professor feedback:
+		<Q13_3__217>4</Q13_3__217>
+Work needed:
+		<Q16_1__217>A final exam</Q16_1__217>
+		<Q16_2__217>A final project</Q16_2__217>
+		<Q16_3__217>Writing a research paper</Q16_3__217>
+
+
+
+Course name:
+		<Q3_218>CS 412 Introduction to Data Mining</Q3_218>
+Recommended Prerequisites:
+		<Q14__218>CS 411 Database Systems</Q14__218>
+		<Q14__218>CS 411 Database Systems</Q14__218>
+		<Q14__218>CS 411 Database Systems</Q14__218>
+		<Q14__218>CS 411 Database Systems</Q14__218>
+		<Q14__218>CS 411 Database Systems</Q14__218>
+		<Q14__218>CS 411 Database Systems</Q14__218>
+		<Q14__218>CS 411 Database Systems</Q14__218>
+		<Q14__218>CS 413 Intro to Combinatorics</Q14__218>
+Recommended continuations:
+		<Q15__218>CS 512 Data Mining Principles</Q15__218>
+		<Q15__218>CS 512 Data Mining Principles</Q15__218>
+		<Q15__218>CS 512 Data Mining Principles</Q15__218>
+		<Q15__218>CS 512 Data Mining Principles</Q15__218>
+		<Q15__218>CS 512 Data Mining Principles</Q15__218>
+		<Q15__218>CS 512 Data Mining Principles</Q15__218>
+		<Q15__218>CS 512 Data Mining Principles</Q15__218>
+		<Q15__218>CS 512 Data Mining Principles</Q15__218>
+Course feedback:
+		<Q17__218>Difficult exam, Professor is ok, TAs are arrogant</Q17__218>
+		<Q17__218>difficult project, decent professor, lot of hard work</Q17__218>
+		<Q17__218>diffidult exams, prfessor is not that great..and difficult to discern his accent.</Q17__218>
+		<Q17__218>Professor not good</Q17__218>
+		<Q17__218>The TA's could have been more responsive on Piazza, Some assignments were lame</Q17__218>
+		<Q17__218>tough exams, professor doesn't cover material, useless quizzes</Q17__218>
+Course interestingness:
+		<Q13_1__218>2</Q13_1__218>
+		<Q13_1__218>2</Q13_1__218>
+		<Q13_1__218>2</Q13_1__218>
+		<Q13_1__218>2</Q13_1__218>
+		<Q13_1__218>2</Q13_1__218>
+		<Q13_1__218>3</Q13_1__218>
+		<Q13_1__218>3</Q13_1__218>
+		<Q13_1__218>3</Q13_1__218>
+		<Q13_1__218>3</Q13_1__218>
+		<Q13_1__218>3</Q13_1__218>
+Course ease:
+		<Q13_2__218>3</Q13_2__218>
+		<Q13_2__218>3</Q13_2__218>
+		<Q13_2__218>3</Q13_2__218>
+		<Q13_2__218>3</Q13_2__218>
+		<Q13_2__218>3</Q13_2__218>
+		<Q13_2__218>4</Q13_2__218>
+		<Q13_2__218>4</Q13_2__218>
+		<Q13_2__218>4</Q13_2__218>
+		<Q13_2__218>4</Q13_2__218>
+		<Q13_2__218>4</Q13_2__218>
+Professor feedback:
+		<Q13_3__218>1</Q13_3__218>
+		<Q13_3__218>3</Q13_3__218>
+		<Q13_3__218>3</Q13_3__218>
+		<Q13_3__218>3</Q13_3__218>
+		<Q13_3__218>3</Q13_3__218>
+		<Q13_3__218>4</Q13_3__218>
+		<Q13_3__218>4</Q13_3__218>
+		<Q13_3__218>4</Q13_3__218>
+		<Q13_3__218>5</Q13_3__218>
+		<Q13_3__218>5</Q13_3__218>
+Work needed:
+		<Q16_1__218>A final exam</Q16_1__218>
+		<Q16_2__218>A final project</Q16_2__218>
+
+
+
+Course name:
+		<Q3_221>CS 418 Interactive Computer Graphics</Q3_221>
+Recommended Prerequisites:
+		<Q14__221>CS 427 Software Engineering I</Q14__221>
+Recommended continuations:
+		<Q15__221>CS 465 User Interface Design</Q15__221>
+Course feedback:
+Course interestingness:
+		<Q13_1__221>3</Q13_1__221>
+Course ease:
+		<Q13_2__221>3</Q13_2__221>
+Professor feedback:
+		<Q13_3__221>3</Q13_3__221>
+Work needed:
+		<Q16_4__221>None of these</Q16_4__221>
+
+
+
+Course name:
+		<Q3_225>CS 423 Operating Systems Design</Q3_225>
+Recommended Prerequisites:
+Recommended continuations:
+Course feedback:
+Course interestingness:
+Course ease:
+Professor feedback:
+Work needed:
+
+
+
+Course name:
+		<Q3_226>CS 424 Real-Time Systems</Q3_226>
+Recommended Prerequisites:
+Recommended continuations:
+Course feedback:
+		<Q17__226>easy exams, interesting lab</Q17__226>
+Course interestingness:
+		<Q13_1__226>2</Q13_1__226>
+Course ease:
+		<Q13_2__226>1</Q13_2__226>
+Professor feedback:
+		<Q13_3__226>1</Q13_3__226>
+Work needed:
+		<Q16_1__226>A final exam</Q16_1__226>
+
+
+
+Course name:
+		<Q3_227>CS 425 Distributed Systems</Q3_227>
+Recommended Prerequisites:
+		<Q14__227>CS 423 Operating Systems Design</Q14__227>
+		<Q14__227>CS 423 Operating Systems Design</Q14__227>
+		<Q14__227>CS 423 Operating Systems Design</Q14__227>
+		<Q14__227>CS 423 Operating Systems Design</Q14__227>
+		<Q14__227>CS 438 Communication Networks</Q14__227>
+Recommended continuations:
+		<Q15__227>CS 525 Advanced Distributed Systems</Q15__227>
+		<Q15__227>CS 525 Advanced Distributed Systems</Q15__227>
+		<Q15__227>CS 525 Advanced Distributed Systems</Q15__227>
+		<Q15__227>CS 525 Advanced Distributed Systems</Q15__227>
+		<Q15__227>CS 525 Advanced Distributed Systems</Q15__227>
+		<Q15__227>CS 525 Advanced Distributed Systems</Q15__227>
+		<Q15__227>CS 525 Advanced Distributed Systems</Q15__227>
+		<Q15__227>CS 525 Advanced Distributed Systems</Q15__227>
+		<Q15__227>CS 525 Advanced Distributed Systems</Q15__227>
+Course feedback:
+		<Q17__227>awesome professor, really interesting, useful</Q17__227>
+		<Q17__227>Good professor, very helpful TAs, excellent coverage of topics in the field</Q17__227>
+		<Q17__227>Great instuctor and grat subject. But difficult MPS!!</Q17__227>
+		<Q17__227>Lengthy exams, professor explains well, helpful TAs</Q17__227>
+Course interestingness:
+		<Q13_1__227>1</Q13_1__227>
+		<Q13_1__227>1</Q13_1__227>
+		<Q13_1__227>1</Q13_1__227>
+		<Q13_1__227>1</Q13_1__227>
+		<Q13_1__227>1</Q13_1__227>
+		<Q13_1__227>2</Q13_1__227>
+		<Q13_1__227>2</Q13_1__227>
+		<Q13_1__227>2</Q13_1__227>
+		<Q13_1__227>2</Q13_1__227>
+		<Q13_1__227>3</Q13_1__227>
+Course ease:
+		<Q13_2__227>1</Q13_2__227>
+		<Q13_2__227>3</Q13_2__227>
+		<Q13_2__227>3</Q13_2__227>
+		<Q13_2__227>3</Q13_2__227>
+		<Q13_2__227>3</Q13_2__227>
+		<Q13_2__227>3</Q13_2__227>
+		<Q13_2__227>4</Q13_2__227>
+		<Q13_2__227>4</Q13_2__227>
+		<Q13_2__227>4</Q13_2__227>
+		<Q13_2__227>4</Q13_2__227>
+Professor feedback:
+		<Q13_3__227>1</Q13_3__227>
+		<Q13_3__227>1</Q13_3__227>
+		<Q13_3__227>1</Q13_3__227>
+		<Q13_3__227>1</Q13_3__227>
+		<Q13_3__227>1</Q13_3__227>
+		<Q13_3__227>1</Q13_3__227>
+		<Q13_3__227>1</Q13_3__227>
+		<Q13_3__227>1</Q13_3__227>
+		<Q13_3__227>1</Q13_3__227>
+		<Q13_3__227>2</Q13_3__227>
+Work needed:
+		<Q16_1__227>A final exam</Q16_1__227>
+
+
+
+Course name:
+		<Q3_232>CS 431 Embedded Systems</Q3_232>
+Recommended Prerequisites:
+Recommended continuations:
+Course feedback:
+Course interestingness:
+Course ease:
+Professor feedback:
+Work needed:
+
+
+
+Course name:
+		<Q3_236>CS 446 Machine Learning</Q3_236>
+Recommended Prerequisites:
+		<Q14__236>CS 412 Introduction to Data Mining</Q14__236>
+		<Q14__236>CS 450 Numerical Analysis</Q14__236>
+Recommended continuations:
+		<Q15__236>CS 440 Artificial Intelligence</Q15__236>
+		<Q15__236>CS 447 Natural Language Processing</Q15__236>
+		<Q15__236>CS 546 Machine Learning in NLP</Q15__236>
+		<Q15__236>CS 598 Advanced Information Retrieval</Q15__236>
+Course feedback:
+		<Q17__236>Awesomeness personified!!</Q17__236>
+		<Q17__236>Difficult course, hard assignments, helpful TAs</Q17__236>
+Course interestingness:
+		<Q13_1__236>1</Q13_1__236>
+		<Q13_1__236>2</Q13_1__236>
+		<Q13_1__236>2</Q13_1__236>
+		<Q13_1__236>2</Q13_1__236>
+Course ease:
+		<Q13_2__236>3</Q13_2__236>
+		<Q13_2__236>4</Q13_2__236>
+		<Q13_2__236>5</Q13_2__236>
+		<Q13_2__236>5</Q13_2__236>
+Professor feedback:
+		<Q13_3__236>1</Q13_3__236>
+		<Q13_3__236>2</Q13_3__236>
+		<Q13_3__236>3</Q13_3__236>
+		<Q13_3__236>4</Q13_3__236>
+Work needed:
+		<Q16_1__236>A final exam</Q16_1__236>
+		<Q16_2__236>A final project</Q16_2__236>
+
+
+
+Course name:
+		<Q3_237>CS 447 Natural Language Processing</Q3_237>
+Recommended Prerequisites:
+Recommended continuations:
+Course feedback:
+Course interestingness:
+Course ease:
+Professor feedback:
+Work needed:
+
+
+
+Course name:
+		<Q3_240>CS 461 Computer Security I</Q3_240>
+Recommended Prerequisites:
+		<Q14__240>CS 427 Software Engineering I</Q14__240>
+Recommended continuations:
+		<Q15__240>CS 438 aCommunication Networks</Q15__240>
+Course feedback:
+Course interestingness:
+		<Q13_1__240>2</Q13_1__240>
+Course ease:
+		<Q13_2__240>4</Q13_2__240>
+Professor feedback:
+		<Q13_3__240>4</Q13_3__240>
+Work needed:
+		<Q16_1__240>A final exam</Q16_1__240>
+
+
+
+Course name:
+		<Q3_241>CS 465 User Interface Design</Q3_241>
+Recommended Prerequisites:
+Recommended continuations:
+		<Q15__241>CS 565 Human-Computer Interaction</Q15__241>
+		<Q15__241>CS 565 Human-Computer Interaction</Q15__241>
+		<Q15__241>CS 565 Human-Computer Interaction</Q15__241>
+		<Q15__241>CS 565 Human-Computer Interaction</Q15__241>
+Course feedback:
+Course interestingness:
+		<Q13_1__241>1</Q13_1__241>
+		<Q13_1__241>1</Q13_1__241>
+		<Q13_1__241>2</Q13_1__241>
+		<Q13_1__241>5</Q13_1__241>
+		<Q13_1__241>5</Q13_1__241>
+Course ease:
+		<Q13_2__241>2</Q13_2__241>
+		<Q13_2__241>2</Q13_2__241>
+		<Q13_2__241>3</Q13_2__241>
+		<Q13_2__241>4</Q13_2__241>
+		<Q13_2__241>5</Q13_2__241>
+Professor feedback:
+		<Q13_3__241>1</Q13_3__241>
+		<Q13_3__241>1</Q13_3__241>
+		<Q13_3__241>2</Q13_3__241>
+		<Q13_3__241>3</Q13_3__241>
+		<Q13_3__241>5</Q13_3__241>
+Work needed:
+		<Q16_1__241>A final exam</Q16_1__241>
+		<Q16_2__241>A final project</Q16_2__241>
+		<Q16_3__241>Writing a research paper</Q16_3__241>
+
+
+
+Course name:
+		<Q3_243>CS 467 Social Visualization</Q3_243>
+Recommended Prerequisites:
+		<Q14__243>CS 410 Text Information Systems</Q14__243>
+		<Q14__243>CS 411 Database Systems</Q14__243>
+		<Q14__243>CS 411 Database Systems</Q14__243>
+		<Q14__243>CS 465 User Interface Design</Q14__243>
+		<Q14__243>CS 465 User Interface Design</Q14__243>
+Recommended continuations:
+		<Q15__243>CS 418 Interactive Computer Graphics</Q15__243>
+		<Q15__243>CS 418 Interactive Computer Graphics</Q15__243>
+		<Q15__243>CS 565 Human-Computer Interaction</Q15__243>
+		<Q15__243>CS 598 Data-Driven Design</Q15__243>
+Course feedback:
+		<Q17__243>creativity, interesting, helpful professor, learning a lot</Q17__243>
+		<Q17__243>great professor..! But too much work. Too many designs and project implementations!</Q17__243>
+		<Q17__243>Interesting project</Q17__243>
+Course interestingness:
+		<Q13_1__243>1</Q13_1__243>
+		<Q13_1__243>1</Q13_1__243>
+		<Q13_1__243>1</Q13_1__243>
+		<Q13_1__243>2</Q13_1__243>
+		<Q13_1__243>2</Q13_1__243>
+		<Q13_1__243>4</Q13_1__243>
+		<Q13_1__243>5</Q13_1__243>
+Course ease:
+		<Q13_2__243>2</Q13_2__243>
+		<Q13_2__243>2</Q13_2__243>
+		<Q13_2__243>2</Q13_2__243>
+		<Q13_2__243>3</Q13_2__243>
+		<Q13_2__243>3</Q13_2__243>
+		<Q13_2__243>3</Q13_2__243>
+		<Q13_2__243>4</Q13_2__243>
+Professor feedback:
+		<Q13_3__243>1</Q13_3__243>
+		<Q13_3__243>1</Q13_3__243>
+		<Q13_3__243>1</Q13_3__243>
+		<Q13_3__243>2</Q13_3__243>
+		<Q13_3__243>2</Q13_3__243>
+		<Q13_3__243>2</Q13_3__243>
+		<Q13_3__243>4</Q13_3__243>
+Work needed:
+		<Q16_2__243>A final project</Q16_2__243>
+		<Q16_3__243>Writing a research paper</Q16_3__243>
+
+
+
+Course name:
+		<Q3_249>CS 483 Applied Parallel Programming</Q3_249>
+Recommended Prerequisites:
+Recommended continuations:
+Course feedback:
+		<Q17__249>Better TA participation expected on Piazza.
+There should be atleast one MP for hands on experience in MPI. </Q17__249>
+Course interestingness:
+		<Q13_1__249>1</Q13_1__249>
+Course ease:
+		<Q13_2__249>4</Q13_2__249>
+Professor feedback:
+		<Q13_3__249>2</Q13_3__249>
+Work needed:
+		<Q16_1__249>A final exam</Q16_1__249>
+		<Q16_2__249>A final project</Q16_2__249>
+
+
+
+Course name:
+		<Q3_252>CS 511 Advanced Data Management</Q3_252>
+Recommended Prerequisites:
+		<Q14__252>CS 411 Database Systems</Q14__252>
+Recommended continuations:
+		<Q15__252>CS 598 Algorithms for Big Data</Q15__252>
+Course feedback:
+		<Q17__252>all the good things</Q17__252>
+Course interestingness:
+		<Q13_1__252>2</Q13_1__252>
+Course ease:
+		<Q13_2__252>3</Q13_2__252>
+Professor feedback:
+		<Q13_3__252>2</Q13_3__252>
+Work needed:
+		<Q16_1__252>A final exam</Q16_1__252>
+		<Q16_2__252>A final project</Q16_2__252>
+
+
+
+Course name:
+		<Q3_253>CS 512 Data Mining Principles</Q3_253>
+Recommended Prerequisites:
+		<Q14__253>CS 412 Introduction to Data Mining</Q14__253>
+		<Q14__253>CS 412 Introduction to Data Mining</Q14__253>
+Recommended continuations:
+		<Q15__253>CS 598 Advanced Information Retrieval</Q15__253>
+		<Q15__253>CS 598 Data-Driven Design</Q15__253>
+Course feedback:
+		<Q17__253>great instructor, lots of reading</Q17__253>
+Course interestingness:
+		<Q13_1__253>2</Q13_1__253>
+		<Q13_1__253>4</Q13_1__253>
+Course ease:
+		<Q13_2__253>3</Q13_2__253>
+		<Q13_2__253>4</Q13_2__253>
+Professor feedback:
+		<Q13_3__253>1</Q13_3__253>
+		<Q13_3__253>3</Q13_3__253>
+Work needed:
+		<Q16_2__253>A final project</Q16_2__253>
+		<Q16_3__253>Writing a research paper</Q16_3__253>
+
+
+
+Course name:
+		<Q3_254>CS 523 Advanced Operating Systems</Q3_254>
+Recommended Prerequisites:
+Recommended continuations:
+Course feedback:
+Course interestingness:
+Course ease:
+Professor feedback:
+Work needed:
+
+
+
+Course name:
+		<Q3_256>CS 525 Advanced Distributed Systems</Q3_256>
+Recommended Prerequisites:
+		<Q14__256>CS 425 Distributed Systems</Q14__256>
+Recommended continuations:
+Course feedback:
+Course interestingness:
+		<Q13_1__256>1</Q13_1__256>
+Course ease:
+		<Q13_2__256>5</Q13_2__256>
+Professor feedback:
+		<Q13_3__256>3</Q13_3__256>
+Work needed:
+		<Q16_2__256>A final project</Q16_2__256>
+		<Q16_3__256>Writing a research paper</Q16_3__256>
+
+
+
+Course name:
+		<Q3_258>CS 527 Topics in Software Engineering</Q3_258>
+Recommended Prerequisites:
+		<Q14__258>CS 427 Software Engineering I</Q14__258>
+		<Q14__258>CS 427 Software Engineering I</Q14__258>
+		<Q14__258>CS 427 Software Engineering I</Q14__258>
+Recommended continuations:
+Course feedback:
+		<Q17__258>nearly no content, completely unrelated to the course description, just focused on TA's projects</Q17__258>
+		<Q17__258>professor explains well, helpful TAs</Q17__258>
+Course interestingness:
+		<Q13_1__258>3</Q13_1__258>
+		<Q13_1__258>3</Q13_1__258>
+		<Q13_1__258>3</Q13_1__258>
+		<Q13_1__258>5</Q13_1__258>
+Course ease:
+		<Q13_2__258>2</Q13_2__258>
+		<Q13_2__258>2</Q13_2__258>
+		<Q13_2__258>4</Q13_2__258>
+		<Q13_2__258>4</Q13_2__258>
+Professor feedback:
+		<Q13_3__258>2</Q13_3__258>
+		<Q13_3__258>2</Q13_3__258>
+		<Q13_3__258>2</Q13_3__258>
+		<Q13_3__258>4</Q13_3__258>
+Work needed:
+		<Q16_2__258>A final project</Q16_2__258>
+		<Q16_3__258>Writing a research paper</Q16_3__258>
+
+
+
+Course name:
+		<Q3_261>CS 538 Advanced Computer Networks</Q3_261>
+Recommended Prerequisites:
+Recommended continuations:
+		<Q15__261>CS 438 Communication Networks</Q15__261>
+Course feedback:
+Course interestingness:
+		<Q13_1__261>4</Q13_1__261>
+Course ease:
+		<Q13_2__261>3</Q13_2__261>
+Professor feedback:
+		<Q13_3__261>3</Q13_3__261>
+Work needed:
+		<Q16_2__261>A final project</Q16_2__261>
+		<Q16_3__261>Writing a research paper</Q16_3__261>
+
+
+
+Course name:
+		<Q3_263>CS 543 Computer Vision</Q3_263>
+Recommended Prerequisites:
+Recommended continuations:
+Course feedback:
+Course interestingness:
+Course ease:
+Professor feedback:
+Work needed:
+
+
+
+Course name:
+		<Q3_266>CS 546 Machine Learning in NLP</Q3_266>
+Recommended Prerequisites:
+Recommended continuations:
+Course feedback:
+Course interestingness:
+Course ease:
+Professor feedback:
+Work needed:
+
+
+
+Course name:
+		<Q3_286>CS 598 Advanced Information Retrieval</Q3_286>
+Recommended Prerequisites:
+		<Q14__286>CS 410 Text Information Systems</Q14__286>
+Recommended continuations:
+		<Q15__286>CS 512 Data Mining Principles</Q15__286>
+Course feedback:
+Course interestingness:
+		<Q13_1__286>4</Q13_1__286>
+Course ease:
+		<Q13_2__286>3</Q13_2__286>
+Professor feedback:
+		<Q13_3__286>2</Q13_3__286>
+Work needed:
+		<Q16_2__286>A final project</Q16_2__286>
+
+
+
+Course name:
+		<Q3_287>CS 598 Social and Economic Networks</Q3_287>
+Recommended Prerequisites:
+		<Q14__287>CS 438 Communication Networks</Q14__287>
+		<Q14__287>CS 450 Numerical Analysis</Q14__287>
+		<Q14__287>CS 450 Numerical Analysis</Q14__287>
+Recommended continuations:
+		<Q15__287>CS 572 Extremal Graph Theory</Q15__287>
+Course feedback:
+		<Q17__287>A little heavy on Math, well structured course, a few trivial assignments</Q17__287>
+		<Q17__287>easy assignments, no exams, nice professor</Q17__287>
+Course interestingness:
+		<Q13_1__287>2</Q13_1__287>
+		<Q13_1__287>2</Q13_1__287>
+		<Q13_1__287>2</Q13_1__287>
+Course ease:
+		<Q13_2__287>2</Q13_2__287>
+		<Q13_2__287>3</Q13_2__287>
+		<Q13_2__287>4</Q13_2__287>
+Professor feedback:
+		<Q13_3__287>2</Q13_3__287>
+		<Q13_3__287>2</Q13_3__287>
+		<Q13_3__287>3</Q13_3__287>
+Work needed:
+		<Q16_2__287>A final project</Q16_2__287>
+		<Q16_3__287>Writing a research paper</Q16_3__287>
+
+
+
+Course name:
+		<Q3_291>CS 598 Data-Driven Design</Q3_291>
+Recommended Prerequisites:
+		<Q14__291>CS 446 Machine Learning</Q14__291>
+Recommended continuations:
+		<Q15__291>CS 446 Machine Learning</Q15__291>
+Course feedback:
+		<Q17__291>A lot of paper reading and critiquing although the set of papers were very interesting</Q17__291>
+Course interestingness:
+		<Q13_1__291>3</Q13_1__291>
+Course ease:
+		<Q13_2__291>3</Q13_2__291>
+Professor feedback:
+		<Q13_3__291>3</Q13_3__291>
+Work needed:
+		<Q16_2__291>A final project</Q16_2__291>
+		<Q16_3__291>Writing a research paper</Q16_3__291>
+
+
+

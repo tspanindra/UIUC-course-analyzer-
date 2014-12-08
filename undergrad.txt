@@ -1,0 +1,1032 @@
+Course name:
+
+		<Q2_108>CS 100 Freshman Orientation</Q2_108>
+Recommended Prerequisites:
+
+		<Q7__108>CS 100 Freshman Orientation</Q7__108>
+		<Q7__108>CS 100 Freshman Orientation</Q7__108>
+Recommended continuations:
+
+		<Q8__108>CS 125 Intro to Computer Science</Q8__108>
+		<Q8__108>CS 125 Intro to Computer Science</Q8__108>
+Course feedback:
+
+		<Q10__108>Boring lectures mostly, easy A.</Q10__108>
+		<Q10__108>Easiest A</Q10__108>
+		<Q10__108>interesting speakers</Q10__108>
+		<Q10__108>It would have been great if our TA had actually given us advice and checked our homework. However, she did not do anything and didn't even look at our final projects. Other than that, it was a pretty easy class!</Q10__108>
+		<Q10__108>weekly quiz on guest speakers</Q10__108>
+Course interestingness:
+
+		<Q6_1__108>2</Q6_1__108>
+		<Q6_1__108>2</Q6_1__108>
+		<Q6_1__108>2</Q6_1__108>
+		<Q6_1__108>3</Q6_1__108>
+		<Q6_1__108>3</Q6_1__108>
+		<Q6_1__108>4</Q6_1__108>
+		<Q6_1__108>4</Q6_1__108>
+Course ease:
+
+		<Q6_2__108>1</Q6_2__108>
+		<Q6_2__108>1</Q6_2__108>
+		<Q6_2__108>1</Q6_2__108>
+		<Q6_2__108>1</Q6_2__108>
+		<Q6_2__108>1</Q6_2__108>
+		<Q6_2__108>1</Q6_2__108>
+		<Q6_2__108>1</Q6_2__108>
+Professor feedback:
+
+		<Q6_3__108>2</Q6_3__108>
+		<Q6_3__108>3</Q6_3__108>
+		<Q6_3__108>3</Q6_3__108>
+		<Q6_3__108>3</Q6_3__108>
+		<Q6_3__108>4</Q6_3__108>
+		<Q6_3__108>4</Q6_3__108>
+		<Q6_3__108>5</Q6_3__108>
+Work needed:
+		<Q9_2__108>A final project</Q9_2__108>
+		<Q9_4__108>None of these</Q9_4__108>
+
+
+
+Course name:
+
+		<Q2_113>CS 125 Intro to Computer Science</Q2_113>
+Recommended Prerequisites:
+
+		<Q7__113>CS 103 Introduction to Programming</Q7__113>
+		<Q7__113>CS 103 Introduction to Programming</Q7__113>
+		<Q7__113>CS 103 Introduction to Programming</Q7__113>
+Recommended continuations:
+
+		<Q8__113>CS 173 Discrete Structures</Q8__113>
+		<Q8__113>CS 225 Data Structures</Q8__113>
+		<Q8__113>CS 225 Data Structures</Q8__113>
+		<Q8__113>CS 225 Data Structures</Q8__113>
+		<Q8__113>CS 225 Data Structures</Q8__113>
+		<Q8__113>CS 225 Data Structures</Q8__113>
+		<Q8__113>CS 225 Data Structures</Q8__113>
+		<Q8__113>CS 225 Data Structures</Q8__113>
+		<Q8__113>CS 241 System Programming</Q8__113>
+Course feedback:
+
+		<Q10__113>CS 196-25 is much harder than it sounds. </Q10__113>
+		<Q10__113>MP's were difficult, but manageable given enough time.</Q10__113>
+		<Q10__113>professor very interesting, engaging lectures, easy mps.</Q10__113>
+		<Q10__113>The professor is okay. I wish Angrave taught the class though. However, TA's and CA's were really helpful. Only one of the midterms was legitimately hard. The professor and TA made sure to offer extra credit and help boost our grades. Fairly easy and manageable class!</Q10__113>
+Course interestingness:
+
+		<Q6_1__113>2</Q6_1__113>
+		<Q6_1__113>2</Q6_1__113>
+		<Q6_1__113>3</Q6_1__113>
+		<Q6_1__113>3</Q6_1__113>
+		<Q6_1__113>4</Q6_1__113>
+		<Q6_1__113>4</Q6_1__113>
+		<Q6_1__113>5</Q6_1__113>
+		<Q6_1__113>5</Q6_1__113>
+		<Q6_1__113>5</Q6_1__113>
+Course ease:
+
+		<Q6_2__113>1</Q6_2__113>
+		<Q6_2__113>2</Q6_2__113>
+		<Q6_2__113>2</Q6_2__113>
+		<Q6_2__113>3</Q6_2__113>
+		<Q6_2__113>3</Q6_2__113>
+		<Q6_2__113>3</Q6_2__113>
+		<Q6_2__113>3</Q6_2__113>
+		<Q6_2__113>4</Q6_2__113>
+		<Q6_2__113>4</Q6_2__113>
+Professor feedback:
+
+		<Q6_3__113>2</Q6_3__113>
+		<Q6_3__113>3</Q6_3__113>
+		<Q6_3__113>3</Q6_3__113>
+		<Q6_3__113>3</Q6_3__113>
+		<Q6_3__113>4</Q6_3__113>
+		<Q6_3__113>4</Q6_3__113>
+		<Q6_3__113>4</Q6_3__113>
+		<Q6_3__113>4</Q6_3__113>
+		<Q6_3__113>5</Q6_3__113>
+Work needed:
+		<Q9_1__113>A final exam</Q9_1__113>
+		<Q9_4__113>None of these</Q9_4__113>
+
+
+
+Course name:
+
+		<Q2_114>CS 173 Discrete Structures</Q2_114>
+Recommended Prerequisites:
+
+		<Q7__114>CS 125 Intro to Computer Science</Q7__114>
+		<Q7__114>CS 125 Intro to Computer Science</Q7__114>
+		<Q7__114>CS 125 Intro to Computer Science</Q7__114>
+Recommended continuations:
+
+		<Q8__114>CS 225 Data Structures</Q8__114>
+		<Q8__114>CS 225 Data Structures</Q8__114>
+		<Q8__114>CS 225 Data Structures</Q8__114>
+		<Q8__114>CS 225 Data Structures</Q8__114>
+		<Q8__114>CS 225 Data Structures</Q8__114>
+		<Q8__114>CS 225 Data Structures</Q8__114>
+		<Q8__114>CS 373 Theory of Computation</Q8__114>
+Course feedback:
+
+		<Q10__114>Basic, important knowledge</Q10__114>
+		<Q10__114>hard content</Q10__114>
+		<Q10__114>Very helpful TAs </Q10__114>
+Course interestingness:
+
+		<Q6_1__114>2</Q6_1__114>
+		<Q6_1__114>2</Q6_1__114>
+		<Q6_1__114>2</Q6_1__114>
+		<Q6_1__114>3</Q6_1__114>
+		<Q6_1__114>4</Q6_1__114>
+		<Q6_1__114>5</Q6_1__114>
+		<Q6_1__114>5</Q6_1__114>
+Course ease:
+
+		<Q6_2__114>1</Q6_2__114>
+		<Q6_2__114>1</Q6_2__114>
+		<Q6_2__114>2</Q6_2__114>
+		<Q6_2__114>3</Q6_2__114>
+		<Q6_2__114>3</Q6_2__114>
+		<Q6_2__114>3</Q6_2__114>
+		<Q6_2__114>5</Q6_2__114>
+Professor feedback:
+
+		<Q6_3__114>2</Q6_3__114>
+		<Q6_3__114>2</Q6_3__114>
+		<Q6_3__114>3</Q6_3__114>
+		<Q6_3__114>4</Q6_3__114>
+		<Q6_3__114>4</Q6_3__114>
+		<Q6_3__114>4</Q6_3__114>
+		<Q6_3__114>5</Q6_3__114>
+Work needed:
+		<Q9_1__114>A final exam</Q9_1__114>
+
+
+
+Course name:
+
+		<Q2_116>CS 225 Data Structures</Q2_116>
+Recommended Prerequisites:
+
+		<Q7__116>CS 125 Intro to Computer Science</Q7__116>
+		<Q7__116>CS 125 Intro to Computer Science</Q7__116>
+		<Q7__116>CS 125 Intro to Computer Science</Q7__116>
+		<Q7__116>CS 125 Intro to Computer Science</Q7__116>
+		<Q7__116>CS 125 Intro to Computer Science</Q7__116>
+		<Q7__116>CS 125 Intro to Computer Science</Q7__116>
+		<Q7__116>CS 173 Discrete Structures</Q7__116>
+		<Q7__116>CS 173 Discrete Structures</Q7__116>
+Recommended continuations:
+
+		<Q8__116>CS 125 Intro to Computer Science</Q8__116>
+		<Q8__116>CS 233 Computer Architecture</Q8__116>
+		<Q8__116>CS 241 System Programming</Q8__116>
+		<Q8__116>CS 241 System Programming</Q8__116>
+		<Q8__116>CS 241 System Programming</Q8__116>
+		<Q8__116>CS 241 System Programming</Q8__116>
+		<Q8__116>CS 473 Fundamental Algorithms</Q8__116>
+		<Q8__116>CS 498 Algorithms and Models of Computation</Q8__116>
+Course feedback:
+
+		<Q10__116>difficult multiple choice, do the extra credit for mps</Q10__116>
+		<Q10__116>Helpful TA's</Q10__116>
+		<Q10__116>middle difficulty exams, somehow boring instructor, helpful TAs.</Q10__116>
+		<Q10__116>Solid class</Q10__116>
+		<Q10__116>Very hard to get help in the class unless you start really early for the MP because of the way Chara queue works</Q10__116>
+Course interestingness:
+
+		<Q6_1__116>4</Q6_1__116>
+		<Q6_1__116>4</Q6_1__116>
+		<Q6_1__116>4</Q6_1__116>
+		<Q6_1__116>4</Q6_1__116>
+		<Q6_1__116>4</Q6_1__116>
+		<Q6_1__116>5</Q6_1__116>
+		<Q6_1__116>5</Q6_1__116>
+		<Q6_1__116>5</Q6_1__116>
+Course ease:
+
+		<Q6_2__116>3</Q6_2__116>
+		<Q6_2__116>3</Q6_2__116>
+		<Q6_2__116>4</Q6_2__116>
+		<Q6_2__116>4</Q6_2__116>
+		<Q6_2__116>4</Q6_2__116>
+		<Q6_2__116>4</Q6_2__116>
+		<Q6_2__116>4</Q6_2__116>
+		<Q6_2__116>5</Q6_2__116>
+Professor feedback:
+
+		<Q6_3__116>3</Q6_3__116>
+		<Q6_3__116>3</Q6_3__116>
+		<Q6_3__116>3</Q6_3__116>
+		<Q6_3__116>4</Q6_3__116>
+		<Q6_3__116>5</Q6_3__116>
+		<Q6_3__116>5</Q6_3__116>
+		<Q6_3__116>5</Q6_3__116>
+		<Q6_3__116>5</Q6_3__116>
+Work needed:
+		<Q9_1__116>A final exam</Q9_1__116>
+
+
+
+Course name:
+
+		<Q2_117>CS 233 Computer Architecture</Q2_117>
+Recommended Prerequisites:
+
+		<Q7__117>CS 225 Data Structures</Q7__117>
+		<Q7__117>CS 225 Data Structures</Q7__117>
+		<Q7__117>CS 225 Data Structures</Q7__117>
+Recommended continuations:
+
+		<Q8__117>CS 241 System Programming</Q8__117>
+		<Q8__117>CS 241 System Programming</Q8__117>
+		<Q8__117>CS 241 System Programming</Q8__117>
+Course feedback:
+
+		<Q10__117>Don't get behind, he moves fast</Q10__117>
+		<Q10__117>great TAs and instructor</Q10__117>
+		<Q10__117>professor explains well, lectures are engaging, very helpful TAs, interesting TAs.</Q10__117>
+Course interestingness:
+
+		<Q6_1__117>4</Q6_1__117>
+		<Q6_1__117>4</Q6_1__117>
+		<Q6_1__117>4</Q6_1__117>
+Course ease:
+
+		<Q6_2__117>1</Q6_2__117>
+		<Q6_2__117>3</Q6_2__117>
+		<Q6_2__117>4</Q6_2__117>
+Professor feedback:
+
+		<Q6_3__117>5</Q6_3__117>
+		<Q6_3__117>5</Q6_3__117>
+		<Q6_3__117>5</Q6_3__117>
+Work needed:
+		<Q9_1__117>A final exam</Q9_1__117>
+		<Q9_2__117>A final project</Q9_2__117>
+
+
+
+Course name:
+
+		<Q2_118>CS 241 System Programming</Q2_118>
+Recommended Prerequisites:
+
+		<Q7__118>CS 225 Data Structures</Q7__118>
+		<Q7__118>CS 225 Data Structures</Q7__118>
+		<Q7__118>CS 225 Data Structures</Q7__118>
+		<Q7__118>CS 225 Data Structures</Q7__118>
+		<Q7__118>CS 233 Computer Architecture</Q7__118>
+		<Q7__118>CS 233 Computer Architecture</Q7__118>
+Recommended continuations:
+
+		<Q8__118>CS 242 Programming Studio</Q8__118>
+		<Q8__118>CS 423 Operating Systems Design</Q8__118>
+		<Q8__118>CS 425 Distributed Systems</Q8__118>
+		<Q8__118>CS 438 Communication Networks</Q8__118>
+		<Q8__118>CS 438 Communication Networks</Q8__118>
+Course feedback:
+
+		<Q10__118>a fast paced course, do the extra credit on mps and study well for quizzes</Q10__118>
+		<Q10__118>professor difficult to understand</Q10__118>
+		<Q10__118>so difficult, worth the effort, great professor</Q10__118>
+Course interestingness:
+
+		<Q6_1__118>2</Q6_1__118>
+		<Q6_1__118>2</Q6_1__118>
+		<Q6_1__118>3</Q6_1__118>
+		<Q6_1__118>4</Q6_1__118>
+		<Q6_1__118>5</Q6_1__118>
+		<Q6_1__118>5</Q6_1__118>
+Course ease:
+
+		<Q6_2__118>3</Q6_2__118>
+		<Q6_2__118>4</Q6_2__118>
+		<Q6_2__118>4</Q6_2__118>
+		<Q6_2__118>4</Q6_2__118>
+		<Q6_2__118>4</Q6_2__118>
+		<Q6_2__118>5</Q6_2__118>
+Professor feedback:
+
+		<Q6_3__118>1</Q6_3__118>
+		<Q6_3__118>3</Q6_3__118>
+		<Q6_3__118>4</Q6_3__118>
+		<Q6_3__118>4</Q6_3__118>
+		<Q6_3__118>5</Q6_3__118>
+		<Q6_3__118>5</Q6_3__118>
+Work needed:
+		<Q9_1__118>A final exam</Q9_1__118>
+
+
+
+Course name:
+
+		<Q2_119>CS 242 Programming Studio</Q2_119>
+Recommended Prerequisites:
+
+		<Q7__119>CS 225 Data Structures</Q7__119>
+		<Q7__119>CS 225 Data Structures</Q7__119>
+		<Q7__119>CS 225 Data Structures</Q7__119>
+		<Q7__119>CS 241 System Programming</Q7__119>
+		<Q7__119>CS 241 System Programming</Q7__119>
+Recommended continuations:
+
+		<Q8__119>CS 427 Software Engineering I</Q8__119>
+		<Q8__119>CS 427 Software Engineering I</Q8__119>
+		<Q8__119>CS 427 Software Engineering I</Q8__119>
+		<Q8__119>CS 429 Software Engineering II, ACP</Q8__119>
+		<Q8__119>CS 498 Open Source Project</Q8__119>
+Course feedback:
+
+		<Q10__119>Lots of programming. No exams. </Q10__119>
+		<Q10__119>Needs to be more organized</Q10__119>
+		<Q10__119>no exams, don't need to go to lecture</Q10__119>
+Course interestingness:
+
+		<Q6_1__119>2</Q6_1__119>
+		<Q6_1__119>3</Q6_1__119>
+		<Q6_1__119>3</Q6_1__119>
+		<Q6_1__119>4</Q6_1__119>
+		<Q6_1__119>5</Q6_1__119>
+Course ease:
+
+		<Q6_2__119>2</Q6_2__119>
+		<Q6_2__119>2</Q6_2__119>
+		<Q6_2__119>2</Q6_2__119>
+		<Q6_2__119>4</Q6_2__119>
+		<Q6_2__119>4</Q6_2__119>
+Professor feedback:
+
+		<Q6_3__119>2</Q6_3__119>
+		<Q6_3__119>3</Q6_3__119>
+		<Q6_3__119>3</Q6_3__119>
+		<Q6_3__119>5</Q6_3__119>
+		<Q6_3__119>5</Q6_3__119>
+Work needed:
+		<Q9_2__119>A final project</Q9_2__119>
+
+
+
+Course name:
+
+		<Q2_120>CS 357 Numerical Methods I</Q2_120>
+Recommended Prerequisites:
+
+Recommended continuations:
+
+		<Q8__120>CS 450 Numerical Analysis</Q8__120>
+Course feedback:
+
+		<Q10__120>i would say math 415 is a good pre-req but its not listed</Q10__120>
+		<Q10__120>math 415 is the best prereq</Q10__120>
+Course interestingness:
+
+		<Q6_1__120>2</Q6_1__120>
+		<Q6_1__120>3</Q6_1__120>
+Course ease:
+
+		<Q6_2__120>3</Q6_2__120>
+		<Q6_2__120>4</Q6_2__120>
+Professor feedback:
+
+		<Q6_3__120>3</Q6_3__120>
+		<Q6_3__120>5</Q6_3__120>
+Work needed:
+		<Q9_1__120>A final exam</Q9_1__120>
+
+
+
+Course name:
+
+		<Q2_124>CS 410 Text Information Systems</Q2_124>
+Recommended Prerequisites:
+
+		<Q7__124>CS 225 Data Structures</Q7__124>
+Recommended continuations:
+
+		<Q8__124>CS 412 Introduction to Data Mining</Q8__124>
+Course feedback:
+
+Course interestingness:
+
+		<Q6_1__124>3</Q6_1__124>
+Course ease:
+
+		<Q6_2__124>2</Q6_2__124>
+Professor feedback:
+
+		<Q6_3__124>4</Q6_3__124>
+Work needed:
+		<Q9_2__124>A final project</Q9_2__124>
+
+
+
+Course name:
+
+		<Q2_125>CS 411 Database Systems</Q2_125>
+Recommended Prerequisites:
+
+		<Q7__125>CS 225 Data Structures</Q7__125>
+		<Q7__125>CS 225 Data Structures</Q7__125>
+		<Q7__125>CS 225 Data Structures</Q7__125>
+		<Q7__125>CS 225 Data Structures</Q7__125>
+		<Q7__125>CS 225 Data Structures</Q7__125>
+		<Q7__125>CS 225 Data Structures</Q7__125>
+		<Q7__125>CS 225 Data Structures</Q7__125>
+		<Q7__125>CS 225 Data Structures</Q7__125>
+		<Q7__125>CS 225 Data Structures</Q7__125>
+		<Q7__125>CS 242 Programming Studio</Q7__125>
+Recommended continuations:
+
+		<Q8__125>CS 410 Text Information Systems</Q8__125>
+		<Q8__125>CS 412 Introduction to Data Mining</Q8__125>
+		<Q8__125>CS 412 Introduction to Data Mining</Q8__125>
+		<Q8__125>CS 412 Introduction to Data Mining</Q8__125>
+		<Q8__125>CS 412 Introduction to Data Mining</Q8__125>
+		<Q8__125>CS 412 Introduction to Data Mining</Q8__125>
+		<Q8__125>CS 412 Introduction to Data Mining</Q8__125>
+		<Q8__125>CS 425 Distributed Systems</Q8__125>
+Course feedback:
+
+		<Q10__125>Interesting, good professor, moderately difficult exams</Q10__125>
+		<Q10__125>Needs better class structure, too theoretical, lacks application of knowledge</Q10__125>
+		<Q10__125>Professor came to class just to read off slides, didn't seem to ever prepare for each lecture</Q10__125>
+		<Q10__125>professor explains well</Q10__125>
+Course interestingness:
+
+		<Q6_1__125>1</Q6_1__125>
+		<Q6_1__125>1</Q6_1__125>
+		<Q6_1__125>2</Q6_1__125>
+		<Q6_1__125>2</Q6_1__125>
+		<Q6_1__125>2</Q6_1__125>
+		<Q6_1__125>2</Q6_1__125>
+		<Q6_1__125>3</Q6_1__125>
+		<Q6_1__125>4</Q6_1__125>
+		<Q6_1__125>4</Q6_1__125>
+		<Q6_1__125>4</Q6_1__125>
+Course ease:
+
+		<Q6_2__125>2</Q6_2__125>
+		<Q6_2__125>2</Q6_2__125>
+		<Q6_2__125>2</Q6_2__125>
+		<Q6_2__125>3</Q6_2__125>
+		<Q6_2__125>3</Q6_2__125>
+		<Q6_2__125>3</Q6_2__125>
+		<Q6_2__125>3</Q6_2__125>
+		<Q6_2__125>3</Q6_2__125>
+		<Q6_2__125>3</Q6_2__125>
+		<Q6_2__125>3</Q6_2__125>
+Professor feedback:
+
+		<Q6_3__125>2</Q6_3__125>
+		<Q6_3__125>2</Q6_3__125>
+		<Q6_3__125>2</Q6_3__125>
+		<Q6_3__125>3</Q6_3__125>
+		<Q6_3__125>3</Q6_3__125>
+		<Q6_3__125>3</Q6_3__125>
+		<Q6_3__125>4</Q6_3__125>
+		<Q6_3__125>4</Q6_3__125>
+		<Q6_3__125>4</Q6_3__125>
+		<Q6_3__125>4</Q6_3__125>
+Work needed:
+		<Q9_1__125>A final exam</Q9_1__125>
+		<Q9_2__125>A final project</Q9_2__125>
+
+
+
+Course name:
+
+		<Q2_126>CS 412 Introduction to Data Mining</Q2_126>
+Recommended Prerequisites:
+
+Recommended continuations:
+
+Course feedback:
+
+Course interestingness:
+
+Course ease:
+
+Professor feedback:
+
+Work needed:
+
+
+
+Course name:
+
+		<Q2_129>CS 418 Interactive Computer Graphics</Q2_129>
+Recommended Prerequisites:
+
+		<Q7__129>CS 225 Data Structures</Q7__129>
+		<Q7__129>CS 225 Data Structures</Q7__129>
+Recommended continuations:
+
+		<Q8__129>CS 419 Production Computer Graphics</Q8__129>
+		<Q8__129>CS 419 Production Computer Graphics</Q8__129>
+Course feedback:
+
+Course interestingness:
+
+		<Q6_1__129>2</Q6_1__129>
+		<Q6_1__129>2</Q6_1__129>
+Course ease:
+
+		<Q6_2__129>2</Q6_2__129>
+		<Q6_2__129>3</Q6_2__129>
+Professor feedback:
+
+		<Q6_3__129>4</Q6_3__129>
+		<Q6_3__129>4</Q6_3__129>
+Work needed:
+		<Q9_1__129>A final exam</Q9_1__129>
+
+
+
+Course name:
+
+		<Q2_134>CS 424 Real-Time Systems</Q2_134>
+Recommended Prerequisites:
+
+		<Q7__134>CS 241 System Programming</Q7__134>
+		<Q7__134>CS 241 System Programming</Q7__134>
+		<Q7__134>CS 431 Embedded Systems</Q7__134>
+Recommended continuations:
+
+		<Q8__134>CS 425 Distributed Systems</Q8__134>
+Course feedback:
+
+		<Q10__134>No</Q10__134>
+Course interestingness:
+
+		<Q6_1__134>1</Q6_1__134>
+		<Q6_1__134>2</Q6_1__134>
+		<Q6_1__134>2</Q6_1__134>
+Course ease:
+
+		<Q6_2__134>2</Q6_2__134>
+		<Q6_2__134>2</Q6_2__134>
+		<Q6_2__134>3</Q6_2__134>
+Professor feedback:
+
+		<Q6_3__134>2</Q6_3__134>
+		<Q6_3__134>3</Q6_3__134>
+		<Q6_3__134>4</Q6_3__134>
+Work needed:
+		<Q9_1__134>A final exam</Q9_1__134>
+		<Q9_2__134>A final project</Q9_2__134>
+		<Q9_3__134>Writing a research paper</Q9_3__134>
+
+
+
+Course name:
+
+		<Q2_135>CS 425 Distributed Systems</Q2_135>
+Recommended Prerequisites:
+
+		<Q7__135>CS 241 System Programming</Q7__135>
+Recommended continuations:
+
+Course feedback:
+
+		<Q10__135>moderately difficult exams, only 2 MPs, homework assignments are moderate</Q10__135>
+Course interestingness:
+
+		<Q6_1__135>3</Q6_1__135>
+Course ease:
+
+		<Q6_2__135>3</Q6_2__135>
+Professor feedback:
+
+		<Q6_3__135>4</Q6_3__135>
+Work needed:
+		<Q9_1__135>A final exam</Q9_1__135>
+
+
+
+Course name:
+
+		<Q2_136>CS 426 Compiler Construction</Q2_136>
+Recommended Prerequisites:
+
+		<Q7__136>CS 426 Compiler Construction</Q7__136>
+Recommended continuations:
+
+		<Q8__136>CS 477 Formal Software Development  Methods</Q8__136>
+Course feedback:
+
+Course interestingness:
+
+		<Q6_1__136>4</Q6_1__136>
+Course ease:
+
+		<Q6_2__136>5</Q6_2__136>
+Professor feedback:
+
+		<Q6_3__136>3</Q6_3__136>
+Work needed:
+		<Q9_1__136>A final exam</Q9_1__136>
+		<Q9_2__136>A final project</Q9_2__136>
+
+
+
+Course name:
+
+		<Q2_137>CS 427 Software Engineering I</Q2_137>
+Recommended Prerequisites:
+
+Recommended continuations:
+
+Course feedback:
+
+Course interestingness:
+
+Course ease:
+
+Professor feedback:
+
+Work needed:
+
+
+
+Course name:
+
+		<Q2_138>CS 428 Software Engineering II</Q2_138>
+Recommended Prerequisites:
+
+		<Q7__138>CS 427 Software Engineering I</Q7__138>
+Recommended continuations:
+
+		<Q8__138>CS 498 Open Source Project</Q8__138>
+Course feedback:
+
+Course interestingness:
+
+		<Q6_1__138>4</Q6_1__138>
+Course ease:
+
+		<Q6_2__138>2</Q6_2__138>
+Professor feedback:
+
+		<Q6_3__138>4</Q6_3__138>
+Work needed:
+		<Q9_1__138>A final exam</Q9_1__138>
+
+
+
+Course name:
+
+		<Q2_142>CS 438 Communication Networks</Q2_142>
+Recommended Prerequisites:
+
+		<Q7__142>CS 241 System Programming</Q7__142>
+Recommended continuations:
+
+		<Q8__142>CS 425 Distributed Systems</Q8__142>
+Course feedback:
+
+Course interestingness:
+
+		<Q6_1__142>4</Q6_1__142>
+Course ease:
+
+		<Q6_2__142>5</Q6_2__142>
+Professor feedback:
+
+		<Q6_3__142>5</Q6_3__142>
+Work needed:
+		<Q9_1__142>A final exam</Q9_1__142>
+
+
+
+Course name:
+
+		<Q2_143>CS 440 Artificial Intelligence</Q2_143>
+Recommended Prerequisites:
+
+		<Q7__143>CS 225 Data Structures</Q7__143>
+		<Q7__143>CS 225 Data Structures</Q7__143>
+		<Q7__143>CS 241 System Programming</Q7__143>
+Recommended continuations:
+
+		<Q8__143>CS 446 Machine Learning</Q8__143>
+		<Q8__143>CS 446 Machine Learning</Q8__143>
+		<Q8__143>CS 446 Machine Learning</Q8__143>
+Course feedback:
+
+		<Q10__143>horrible professor, easy exams, okay MPs</Q10__143>
+		<Q10__143>teachers are hard to understand. exams are tough. </Q10__143>
+Course interestingness:
+
+		<Q6_1__143>2</Q6_1__143>
+		<Q6_1__143>3</Q6_1__143>
+		<Q6_1__143>4</Q6_1__143>
+Course ease:
+
+		<Q6_2__143>3</Q6_2__143>
+		<Q6_2__143>5</Q6_2__143>
+		<Q6_2__143>5</Q6_2__143>
+Professor feedback:
+
+		<Q6_3__143>1</Q6_3__143>
+		<Q6_3__143>1</Q6_3__143>
+		<Q6_3__143>1</Q6_3__143>
+Work needed:
+		<Q9_1__143>A final exam</Q9_1__143>
+
+
+
+Course name:
+
+		<Q2_144>CS 446 Machine Learning</Q2_144>
+Recommended Prerequisites:
+
+Recommended continuations:
+
+Course feedback:
+
+		<Q10__144>Great course. Theoretical and Abstract. Great concepts and ideas. Would be helpful to have a good foundation in Linear Algebra, Probability and some Linear Programming.</Q10__144>
+Course interestingness:
+
+		<Q6_1__144>5</Q6_1__144>
+Course ease:
+
+		<Q6_2__144>4</Q6_2__144>
+Professor feedback:
+
+		<Q6_3__144>5</Q6_3__144>
+Work needed:
+		<Q9_1__144>A final exam</Q9_1__144>
+		<Q9_2__144>A final project</Q9_2__144>
+
+
+
+Course name:
+
+		<Q2_147>CS 460 Security Laboratory</Q2_147>
+Recommended Prerequisites:
+
+		<Q7__147>CS 461 Computer Security I</Q7__147>
+Recommended continuations:
+
+Course feedback:
+
+		<Q10__147>Good, light work load course</Q10__147>
+Course interestingness:
+
+		<Q6_1__147>5</Q6_1__147>
+Course ease:
+
+		<Q6_2__147>2</Q6_2__147>
+Professor feedback:
+
+		<Q6_3__147>5</Q6_3__147>
+Work needed:
+		<Q9_2__147>A final project</Q9_2__147>
+
+
+
+Course name:
+
+		<Q2_148>CS 461 Computer Security I</Q2_148>
+Recommended Prerequisites:
+
+		<Q7__148>CS 225 Data Structures</Q7__148>
+		<Q7__148>CS 241 System Programming</Q7__148>
+Recommended continuations:
+
+		<Q8__148>CS 460 Security Laboratory</Q8__148>
+		<Q8__148>CS 460 Security Laboratory</Q8__148>
+Course feedback:
+
+		<Q10__148>easy exam, interesting material and mp, great professor</Q10__148>
+Course interestingness:
+
+		<Q6_1__148>5</Q6_1__148>
+		<Q6_1__148>5</Q6_1__148>
+Course ease:
+
+		<Q6_2__148>1</Q6_2__148>
+		<Q6_2__148>2</Q6_2__148>
+Professor feedback:
+
+		<Q6_3__148>5</Q6_3__148>
+		<Q6_3__148>5</Q6_3__148>
+Work needed:
+		<Q9_1__148>A final exam</Q9_1__148>
+		<Q9_4__148>None of these</Q9_4__148>
+
+
+
+Course name:
+
+		<Q2_149>CS 465 User Interface Design</Q2_149>
+Recommended Prerequisites:
+
+		<Q7__149>CS 225 Data Structures</Q7__149>
+		<Q7__149>CS 225 Data Structures</Q7__149>
+		<Q7__149>CS 225 Data Structures</Q7__149>
+		<Q7__149>CS 467 Social Visualization</Q7__149>
+Recommended continuations:
+
+		<Q8__149>CS 467 Social Visualization</Q8__149>
+		<Q8__149>CS 467 Social Visualization</Q8__149>
+		<Q8__149>CS 467 Social Visualization</Q8__149>
+		<Q8__149>CS 498 Socio-Computer Interaction</Q8__149>
+Course feedback:
+
+		<Q10__149>Great lecturing professor, needs more application of learned material</Q10__149>
+		<Q10__149>Hard exams.  Easy projects.</Q10__149>
+		<Q10__149>pay attention in class. the lectures are actually very interesting and practical. </Q10__149>
+Course interestingness:
+
+		<Q6_1__149>3</Q6_1__149>
+		<Q6_1__149>4</Q6_1__149>
+		<Q6_1__149>4</Q6_1__149>
+		<Q6_1__149>5</Q6_1__149>
+Course ease:
+
+		<Q6_2__149>2</Q6_2__149>
+		<Q6_2__149>3</Q6_2__149>
+		<Q6_2__149>4</Q6_2__149>
+		<Q6_2__149>5</Q6_2__149>
+Professor feedback:
+
+		<Q6_3__149>3</Q6_3__149>
+		<Q6_3__149>5</Q6_3__149>
+		<Q6_3__149>5</Q6_3__149>
+		<Q6_3__149>5</Q6_3__149>
+Work needed:
+		<Q9_1__149>A final exam</Q9_1__149>
+		<Q9_2__149>A final project</Q9_2__149>
+
+
+
+Course name:
+
+		<Q2_150>CS 466 Introduction to Bioinformatics</Q2_150>
+Recommended Prerequisites:
+
+		<Q7__150>CS 225 Data Structures</Q7__150>
+Recommended continuations:
+
+		<Q8__150>CS 473 Fundamental Algorithms</Q8__150>
+Course feedback:
+
+		<Q10__150>easy class, small class, slow lectures, dynamic programming, easy exams</Q10__150>
+Course interestingness:
+
+		<Q6_1__150>4</Q6_1__150>
+Course ease:
+
+		<Q6_2__150>3</Q6_2__150>
+Professor feedback:
+
+		<Q6_3__150>3</Q6_3__150>
+Work needed:
+		<Q9_1__150>A final exam</Q9_1__150>
+		<Q9_2__150>A final project</Q9_2__150>
+
+
+
+Course name:
+
+		<Q2_151>CS 467 Social Visualization</Q2_151>
+Recommended Prerequisites:
+
+		<Q7__151>CS 225 Data Structures</Q7__151>
+		<Q7__151>CS 465 User Interface Design</Q7__151>
+Recommended continuations:
+
+		<Q8__151>CS 465 User Interface Design</Q8__151>
+		<Q8__151>CS 498 Socio-Computer Interaction</Q8__151>
+Course feedback:
+
+		<Q10__151>Project heavy course, interesting lectures, great professor</Q10__151>
+Course interestingness:
+
+		<Q6_1__151>4</Q6_1__151>
+		<Q6_1__151>5</Q6_1__151>
+Course ease:
+
+		<Q6_2__151>2</Q6_2__151>
+		<Q6_2__151>3</Q6_2__151>
+Professor feedback:
+
+		<Q6_3__151>5</Q6_3__151>
+		<Q6_3__151>5</Q6_3__151>
+Work needed:
+		<Q9_2__151>A final project</Q9_2__151>
+
+
+
+Course name:
+
+		<Q2_152>CS 473 Fundamental Algorithms</Q2_152>
+Recommended Prerequisites:
+
+		<Q7__152>CS 225 Data Structures</Q7__152>
+Recommended continuations:
+
+		<Q8__152>CS 498 Algorithms and Models of Computation</Q8__152>
+Course feedback:
+
+		<Q10__152>hard class, confusing homeworks and exams, helpful TAs, stressful, find a group early</Q10__152>
+Course interestingness:
+
+		<Q6_1__152>4</Q6_1__152>
+Course ease:
+
+		<Q6_2__152>5</Q6_2__152>
+Professor feedback:
+
+		<Q6_3__152>4</Q6_3__152>
+Work needed:
+		<Q9_1__152>A final exam</Q9_1__152>
+
+
+
+Course name:
+
+		<Q2_160>CS 498 Algorithms and Models of Computation</Q2_160>
+Recommended Prerequisites:
+
+		<Q7__160>CS 225 Data Structures</Q7__160>
+Recommended continuations:
+
+		<Q8__160>CS 473 Fundamental Algorithms</Q8__160>
+Course feedback:
+
+		<Q10__160>difficult exams, professor explains well</Q10__160>
+Course interestingness:
+
+		<Q6_1__160>2</Q6_1__160>
+Course ease:
+
+		<Q6_2__160>5</Q6_2__160>
+Professor feedback:
+
+		<Q6_3__160>4</Q6_3__160>
+Work needed:
+		<Q9_1__160>A final exam</Q9_1__160>
+
+
+
+Course name:
+
+		<Q2_165>CS 498 Digital Forensics</Q2_165>
+Recommended Prerequisites:
+
+Recommended continuations:
+
+Course feedback:
+
+Course interestingness:
+
+Course ease:
+
+Professor feedback:
+
+Work needed:
+
+
+
+Course name:
+
+		<Q2_167>CS 498 Probability in Computer Science</Q2_167>
+Recommended Prerequisites:
+
+		<Q7__167>CS 103 Introduction to Programming</Q7__167>
+		<Q7__167>CS 173 Discrete Structures</Q7__167>
+		<Q7__167>CS 357 Numerical Methods I</Q7__167>
+Recommended continuations:
+
+		<Q8__167>CS 450 Numerical Analysis</Q8__167>
+Course feedback:
+
+		<Q10__167>Makes theory interesting, but little to none of it appears on the hw... which I am grateful of</Q10__167>
+		<Q10__167>not very interesting, disorganized, but the professor tries his best to help students actually understand the materials</Q10__167>
+Course interestingness:
+
+		<Q6_1__167>3</Q6_1__167>
+		<Q6_1__167>4</Q6_1__167>
+		<Q6_1__167>5</Q6_1__167>
+Course ease:
+
+		<Q6_2__167>3</Q6_2__167>
+		<Q6_2__167>3</Q6_2__167>
+		<Q6_2__167>5</Q6_2__167>
+Professor feedback:
+
+		<Q6_3__167>3</Q6_3__167>
+		<Q6_3__167>3</Q6_3__167>
+		<Q6_3__167>4</Q6_3__167>
+Work needed:
+		<Q9_4__167>None of these</Q9_4__167>
+
+
+

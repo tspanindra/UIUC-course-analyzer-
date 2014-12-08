@@ -23,20 +23,111 @@ function scrollToElement(selector, callback){
 function givePrerequisites(text) {
 	var result = [];
 	if(text == " Machine Learning") {
-		result.push("Introduction to Data Mining");
-		result.push("Text Information Systems");
+		result.push(" Introduction to Data Mining");
+		result.push(" Numerical Analysis.");
 	}
-	else if(text= " System Programming") {
-		result.push("Computer Architecture");
-		result.push("Data Structures");
+	else if(text == " System Programming") {
+		result.push(" Data Structures");
+		result.push(" Computer Architecture");
 	}
-	else if(text == " Social visualization") {
-		result.push("User Interface Design");
-		result.push("Text Information Systems");
+	else if(text == " Social Visualization") {
+		result.push(" Database Systems");
+		result.push(" User Interface Design");
+	}
+	else if(text == " User Interface Design") {
+		result.push(" Data Structures");
+		result.push(" Social Visualization");
+	}
+	else if(text == " Computer Architecture") {
+		result.push(" Data Structures");
+	}
+	else if(text == " Database Systems") {
+		result.push(" Data Structures");
+		result.push(" Programming Studio");
 	}
 	else if(text == " Introduction to Data Mining") {
-		result.push("Database Systems");
-		result.push("Intro to Combinatorics");
+		result.push(" Database Systems");
+		result.push(" Intro to Combinatorics");
+	}
+	else if(text == " Real-Time Systems")
+	{
+		result.push(" System Programming");
+		result.push(" Embedded Systems");
+	}
+	else if(text == " Distributed Systems")
+	{
+		result.push(" Operating Systems Design");
+		result.push(" System Programming");
+	}
+	else if(text == " Advanced Data Management")
+	{
+		result.push(" Database Systems");
+	}
+	else if(text == " Data Mining Principles")
+	{
+		result.push(" Introduction to Data Mining");
+	}
+	else if(text == " Topics in Software Engineering")
+	{
+		result.push(" Software Engineering I");
+	}
+	else if(text == " Social and Economic Networks")
+	{
+		result.push(" Numerical Analysis");
+		result.push(" Communication Networks");
+	}
+	else if(text == " Data-Driven Design")
+	{
+		result.push(" Machine Learning");
+	}
+	else if(text == " Intro to Computer Science")
+	{
+		result.push(" Introduction to Programming");
+	}
+	else if(text == " Discrete Structures")
+	{
+		result.push(" Intro to Computer Science");
+	}
+	else if(text == " Data Structures")
+	{
+		result.push(" Intro to Computer Science");
+		result.push(" Discrete Structures");
+	}
+	else if(text == " Programming Studio")
+	{
+		result.push(" Data Structures");
+		result.push(" System Programming");
+	}
+	else if(text == " Artificial Intelligence")
+	{
+		result.push(" Data Structures");
+		result.push(" System Programming");
+	}
+	else if(text == " Security Laboratory")
+	{
+		result.push(" Computer Security I");
+	}
+	else if(text == " Computer Security I")
+	{
+		result.push(" Data Structures");
+		result.push(" System Programming");
+	}
+	else if(text == " Introduction to Bioinformatics")
+	{
+		result.push(" Data Structures");
+	}
+	else if(text == " Fundamental Algorithms")
+	{
+		result.push(" Data Structures");
+	}
+	else if(text == " Algorithms and Models of Computation")
+	{
+		result.push(" Data Structures");
+	}
+	else if(text == " Probability in Computer Science")
+	{
+		result.push(" Introduction to Programming");
+		result.push(" Numerical Methods I");
 	}
 	return result;
 }
@@ -44,20 +135,100 @@ function givePrerequisites(text) {
 function giveContinuationSubjects(text) {
 	var result = [];
 	if(text == " Machine Learning") {
-		result.push("Machine Learning in NLP");
-		result.push("Advanced Information Retrieval");
+		result.push(" Artificial Intelligence");
+		result.push(" Machine Learning in NLP.");
 	}
-	else if(text = " System Programming") {
-		result.push("Communication Networks");
-		result.push("Operating Systems Design");
+	else if(text == " System Programming") {
+		result.push(" Communication Networks");
+		result.push(" Distributed Systems");
 	}
-	else if(text == " Social visualization") {
-		result.push("Human-Computer Interaction");
-		result.push("Interactive Computer Graphics");
+	else if(text == " Social Visualization") {
+		result.push(" Interactive Computer Graphics");
+		result.push(" Socio-Computer Interaction");
+	}
+	else if(text == " User Interface Design") {
+		result.push(" Social Visualization");
+		result.push(" Human-Computer Interaction");
+	}
+	else if(text == " Computer Architecture") {
+		result.push(" System Programming");
+	}
+	else if(text == " Database Systems") {
+		result.push(" Introduction to Data Mining");
+		result.push(" Advanced Data Management");
 	}
 	else if(text == " Introduction to Data Mining") {
-		result.push("Data Mining Principles");
-		result.push("Machine Learning");
+		result.push(" Data Mining Principles");
+	}
+	else if(text == " Real-Time Systems")
+	{
+		result.push(" Distributed Systems");
+	}
+	else if(text == " Distributed Systems")
+	{
+		result.push(" Advanced Distributed Systems");
+	}
+	else if(text == " Advanced Data Management")
+	{
+		result.push(" Algorithms for Big Data");
+	}
+	else if(text == " Data Mining Principles")
+	{
+		result.push(" Advanced Information Retrieval");
+		result.push(" Data-Driven Design");
+	}
+	else if(text == " Social and Economic Networks")
+	{
+		result.push(" Extremal Graph Theory");
+	}
+	else if(text == " Data-Driven Design")
+	{
+		result.push(" Machine Learning");
+	}
+	else if(text == " Intro to Computer Science")
+	{
+		result.push(" Data Structures");
+		result.push(" Discrete Structures");		
+	}
+	else if(text == " Discrete Structures")
+	{
+		result.push(" Data Structures");
+		result.push(" Theory of Computation");
+	}
+	else if(text == " Data Structures")
+	{
+		result.push(" System Programming");
+		result.push(" Fundamental Algorithms");
+	}
+	else if(text == " Programming Studio")
+	{
+		result.push(" Software Engineering I");
+		result.push(" Open Source Project");
+	}
+	else if(text == " Artificial Intelligence")
+	{
+		result.push(" Machine Learning");
+	}
+	else if(text == " Computer Security I")
+	{
+		result.push(" Security Laboratory");
+		result.push(" Communication Networks");
+	}
+	else if(text == " Introduction to Bioinformatics")
+	{
+		result.push(" Fundamental Algorithms");
+	}
+	else if(text == " Fundamental Algorithms")
+	{
+		result.push(" Data Structures");
+	}
+	else if(text == " Algorithms and Models of Computation")
+	{
+		result.push(" Algorithms and Models of Computation");
+	}
+	else if(text == " Probability in Computer Science")
+	{
+		result.push(" Numerical Analysis");
 	}
 	return result;
 }
@@ -65,51 +236,303 @@ function giveContinuationSubjects(text) {
 function giveRecommendedSubjects(text) {
 	var result = [];
 	if(text == " Machine Learning") {
-		result.push("Introduction to Data Mining");
-		result.push("Social Visualization");
+		result.push(" Introduction to Data Mining");
+		result.push(" Social Visualization");
 	}
-	else if(text = " System Programming") {
-		result.push("Computer Architecture");
-		result.push("Numerical Methods I");
+	else if(text == " System Programming") {
+		result.push(" Computer Architecture");
+		result.push(" Numerical Methods I");
 	}
 	else if(text == " Social visualization") {
-		result.push("Introduction to Data Mining ");
-		result.push("Distributed Systems");
+		result.push(" Introduction to Data Mining ");
+		result.push(" Distributed Systems");
+	}
+	else if(text== " User Interface Design") {
+		result.push(" Database Systems");
+		result.push(" Distributed Systems");
+	}
+	else if(text == " Computer Architecture") {
+		result.push(" Data Structures");
+		result.push(" System Programming");
+	}
+	else if(text == " Database Systems") {
+		result.push(" User Interface Design");
+		result.push(" Probability in Computer Science");
+	}
+	else if(text == " Introduction to Data Mining") {
+		result.push(" Distributed Systems");
+		result.push(" Social Visualization");
+	}
+	else if(text == " Real-Time Systems")
+	{
+		result.push(" Distributed Systems");
+		result.push(" Database Systems");
+	}
+	else if(text == " Distributed Systems")
+	{
+		result.push(" Social Visualization");
+		result.push(" Introduction to Data Mining");
+	}
+	else if(text == " Advanced Data Management")
+	{
+		result.push(" Topics in Software Engineering");
+		result.push(" Advanced Distributed Systems");
+	}
+	else if(text == " Data Mining Principles")
+	{
+		result.push(" Social Visualization");
+		result.push(" Advanced Information Retrieval");
+	}
+	else if(text == " Topics in Software Engineering")
+	{
+		result.push(" Introduction to Data Mining");
+		result.push(" Distributed Systems");
+	}
+	else if(text == " Social and Economic Networks")
+	{
+		result.push(" Machine Learning");
+		result.push(" Data-Driven Design");
+	}
+	else if(text == " Data-Driven Design")
+	{
+		result.push(" Introduction to Data Mining");
+		result.push(" Social and Economic Networks");
+	}
+	else if(text == " Intro to Computer Science")
+	{
+		result.push(" Freshman Orientation");
+		result.push(" Discrete Structures");
+	}
+	else if(text == " Discrete Structures")
+	{
+		result.push(" Intro to Computer Science");
+		result.push(" Data Structures");
+	}
+	else if(text == " Data Structures")
+	{
+		result.push(" Discrete Structures");
+		result.push(" Computer Architecture");
+	}
+	else if(text == " Programming Studio")
+	{
+		result.push(" Database Systems");
+		result.push(" Distributed Systems");
+	}
+	else if(text == " Artificial Intelligence")
+	{
+		result.push(" Interactive Computer Graphics");
+		result.push(" User Interface Design");
+	}
+	else if(text == " Security Laboratory")
+	{
+		result.push(" Computer Security I");
+		result.push(" Fundamental Algorithms");
+	}
+	else if(text == " Computer Security I")
+	{Fundamental
+		result.push(" Security Laboratory");
+		result.push(" System Programming");
+	}
+	else if(text == " Introduction to Bioinformatics")
+	{
+		result.push(" Fundamental Algorithms");
+		result.push(" Database Systems");
+	}
+	else if(text == " Fundamental Algorithms")
+	{
+		result.push(" Data Structures");
+		result.push(" Discrete Structures");
+	}
+	else if(text == " Algorithms and Models of Computation")
+	{
+		result.push(" Introduction to Bioinformatics");
+		result.push(" Fundamental Algorithms");
+	}
+	else if(text == " Probability in Computer Science")
+	{
+		result.push(" Fundamental Algorithms");
+		result.push(" Numerical Methods I");
 	}
 	return result;
 }
 
 function giveSubjectsCode(text) {
 	var subjectCode = "";
+	console.log("getting subject for " + text); 
 	if(text == "Machine Learning") {
 		subjectCode = 446;
-	}	
-	else if(text == "Social Visualization") {
+	}
+	else if(text == " System Programming") {
+		subjectCode = 241;
+	}
+	else if(text == " Social Visualization") {
 		subjectCode = 467;
 	}
-	else if(text == "Introduction to Data Mining") {
-		subjectCode = 412;	
+	else if(text == " User Interface Design") {
+		subjectCode = 465;
 	}
-	else if(text = "System Programming") {
-		subjectCode = 241;
+	else if(text == " Computer Architecture") {
+		subjectCode = 233;
+	}
+	else if(text == " Database Systems") {
+		subjectCode = 411;
+	}
+	else if(text == " Introduction to Data Mining") {
+		subjectCode = 412;
+	}
+	else if(text == " Real-Time Systems")
+	{
+		subjectCode = 424;
+	}
+	else if(text == " Distributed Systems")
+	{
+		subjectCode = 425;
+	}
+	else if(text == " Advanced Data Management")
+	{
+		subjectCode = 511;
+	}
+	else if(text == " Data Mining Principles")
+	{
+		subjectCode = 512;
+	}
+	else if(text == " Social and Economic Networks")
+	{
+		subjectCode = 598;
+	}
+	else if(text == " Data-Driven Design")
+	{
+		subjectCode = 598;
+	}
+	else if(text == " Intro to Computer Science")
+	{
+		subjectCode = 125;
+	}
+	else if(text == " Discrete Structures")
+	{
+		subjectCode = 173;
+	}
+	else if(text == " Data Structures")
+	{
+		subjectCode = 225;
+	}
+	else if(text == " Programming Studio")
+	{
+		subjectCode = 242;
+	}
+	else if(text == " Artificial Intelligence")
+	{
+		subjectCode = 440;
+	}
+	else if(text == " Computer Security I")
+	{
+		subjectCode = 461;
+	}
+	else if(text == " Introduction to Bioinformatics")
+	{
+		subjectCode = 466;
+	}
+	else if(text == " Fundamental Algorithms")
+	{
+		subjectCode = 473;
+	}
+	else if(text == " Algorithms and Models of Computation")
+	{
+		subjectCode = 498;
+	}
+	else if(text == " Probability in Computer Science")
+	{
+		subjectCode = 498;
 	}
 	return subjectCode;
 }
 
 function giveSubjectName(text) {
 	var subjectName = "";
-	//alert(text);
 	if(text == 446) {
 		subjectName = " Machine Learning";
-	}	
-	else if(text == 467) {
+	}
+	else if(text == 241) {
+		subjectName = " System Programming";
+	}
+	else if(text == 437) {
 		subjectName = " Social Visualization";
 	}
-	else if(text == 412) {
-		subjectName = " Introduction to Data Mining";	
+	else if(text == 465) {
+		subjectName = " User Interface Design";
 	}
-	else if(text = 241) {
-		subjectName = " System Programming";
+	else if(text == 233) {
+		subjectName = " Computer Architecture";
+	}
+	else if(text == 411) {
+		subjectName = " Database Systems";
+	}
+	else if(text == 412) {
+		subjectName = " Introduction to Data Mining";
+	}
+	else if(text == 424)
+	{
+		subjectName = " Real-Time Systems";
+	}
+	else if(text == 425)
+	{
+		subjectName = " Distributed Systems";
+	}
+	else if(text == 511)
+	{
+		subjectName = " Advanced Data Management";
+	}
+	else if(text == 512)
+	{
+		subjectName = " Data Mining Principles";
+	}
+	else if(text == 598)
+	{
+		subjectCode = " Social and Economic Networks";
+	}
+	else if(text == 598)
+	{
+		subjectName = " Data-Driven Design";
+	}
+	else if(text == 125)
+	{
+		subjectName = " Intro to Computer Science";
+	}
+	else if(text == 173)
+	{
+		subjectName = " Discrete Structures";
+	}
+	else if(text == 225)
+	{
+		subjectName = " Data Structures";
+	}
+	else if(text == 242)
+	{
+		subjectName = " Programming Studio";
+	}
+	else if(text == 440)
+	{
+		subjectName = " Artificial Intelligence";
+	}
+	else if(text == 461)
+	{
+		subjectName = " Computer Security I";
+	}
+	else if(text == 466)
+	{
+		subjectName = " Introduction to Bioinformatics";
+	}
+	else if(text == 473)
+	{
+		subjectName = " Fundamental Algorithms";
+	}
+	else if(text == 498)
+	{
+		subjectName = " Algorithms and Models of Computation";
+	}
+	else if(text == 498)
+	{
+		subjectName = " Probability in Computer Science";
 	}
 	return subjectName;
 }
@@ -168,7 +591,7 @@ function getCSSubjects() {
 			ids[i] = y[i]['id'];
 		}
 
-		for (var i = 0; i < courses.length; i++) {
+		/*for (var i = 0; i < courses.length; i++) {
 		     var button = $('<span><button id='+ids[i]+'>'+ids[i] + " : " +courses[i]+'</button></span>');
 			$(button).bind( "click", function(e) {
 				//alert( $( this ).text());
@@ -184,16 +607,50 @@ function getCSSubjects() {
 		     $('#coursesTable').append(button);
 		     $("#"+ids[i]).width(300);
 		     $("#"+ids[i]).height(70);
+	  		}*/
+		for (var i = 0; i < courses.length; i++) {
+		     var listOption = $('<option id='+ids[i]+'>'+ids[i] + " : " +courses[i]+'</option>');
+		     console.log("option added : " + listOption);
+			// $("#courseList").change( function(e) {
+			// 	console.log("change happened");
+			// 	//alert( $( this ).text());
+			// 	//scrollToElement('#themes');
+			// 	$('#themes').empty();
+			// 	$('#rings').empty();
+			// 	$('#rings1').empty();
+			// 	startSemantria($(this).text());
+
+			// 	drawVenn($(this).text());
+			// });
+				 
+		     $('#coursesDropdown').find("#courseList").append(listOption);
+			console.log("size of list is now " + document.getElementById("courseList").length);
+		     //$("#"+ids[i]).width(300);
+		     //$("#"+ids[i]).height(70);
 	  		}
+
+	  		$("#courseList").change( function(e) {
+				console.log("change happened");
+				//alert( $( this ).text());
+				//scrollToElement('#themes');
+				$('#themes').empty();
+				$('#rings').empty();
+				$('#rings1').empty();
+				//startSemantria($(this).text());
+				//alert($("#courseList option:selected").val());
+				//alert($(this).text);
+				drawVenn($("#courseList option:selected").val());
+			});
+
 	    }	
 	});
 }
 
-function drawVennDiagram(subjectCode1, subjectCode2, id, subjectInfo) {
+function drawVennDiagram(subjectCode1, subjectCode2, subjectCode3, id, subjectInfo) {
 	//alert(giveSubjectName(subjectCode1));
 
-	var sets = [{label: ""+subjectCode1, size: 12}, {label: ""+subjectCode2, size: 10}],
-    overlaps = [{sets: [0,1], size: 2}];
+	var sets = [{label: ""+subjectCode1, size: 10}, {label: ""+subjectCode2, size: 10}, {label: ""+subjectCode3, size: 10}],
+    overlaps = [{sets: [0,1], size: 2},{sets: [1,2], size: 2},{sets: [0,2], size: 0}];
 	var colours = ['black', 'red', 'blue', 'green'];
 	             
 	// get positions for each set
@@ -227,20 +684,23 @@ function drawVennDiagram(subjectCode1, subjectCode2, id, subjectInfo) {
               	  launchAlert($(this).text());
               	//writeSubjectInfo($(this).text(), subjectInfoIds[i]);
               });
+              console.log("venn diag drawn")
 
 }
 
 function drawVenn(text) {
+	console.log("venn to draw for : " + text)
 	var sub = text.split(":");
 	var recommendedSubjects = giveRecommendedSubjects(sub[1]);
-
+	console.log("recommendedSubjects  " + recommendedSubjects)
 	var subjectCodes = [];
 	for(var i = 0; i < recommendedSubjects.length; i++) {
 		//alert(recommendedSubjects[i] + giveSubjectsCode(recommendedSubjects[i]));
 		subjectCodes[i] = giveSubjectsCode(recommendedSubjects[i]);
+		console.log("sub code for " + recommendedSubjects[i] + " : " + subjectCodes[i])
 	}
 
-	drawVennDiagram(sub[0], subjectCodes[0], "rings", "subjectInfo");
+	drawVennDiagram(sub[0], subjectCodes[0], subjectCodes[1], "rings", "subjectInfo");
 	drawVennDiagram(sub[0], subjectCodes[1], "rings1", "subjectInfo1");
 	/*var sets = [{label: ""+sub[0], size: 15}, {label: ""+subjectCodes[0], size: 8}, {label: ""+subjectCodes[1], "size":7}],
 	    overlaps = [{sets: [0,1], size: 5}, {sets: [1,2], size: 4}, {sets: [0,2], size: 5}];*/
@@ -256,6 +716,7 @@ var result = [];
 		result.push("Difficult course, hard assignments, helpful TAs");
 		result.push("A lot of paper reading and critiquing although the set of papers were very interesting");
 		result.push("horrible professor, easy exams, okay MPs");
+		result.push("Awesomeness personified!!");
 	}
 	else if(sub[1] = " System Programming") {
 		result.push("so difficult, worth the effort, great professor");
@@ -280,19 +741,131 @@ var result = [];
 		result.push("Hard exams.  Easy projects.");
 		result.push("pay attention in class. the lectures are actually very interesting and practical.");
 	}
-	else if(sub[1] == "Computer Architecture") {
+	else if(sub[1] == " Computer Architecture") {
 		result.push("so difficult, worth the effort, great professor");
 		result.push("professor explains well, lectures are engaging, very helpful TAs, interesting TAs.");
 		result.push("middle difficulty exams, somehow boring instructor, helpful TAs.");
 		result.push("great TAs and instructor");
+		result.push("Don't get behind, he moves fast");
 	}
-	else if(sub[1] == "Database Systems") {
+	else if(sub[1] == " Database Systems") {
 		result.push("Needs better class structure, too theoretical, lacks application of knowledge");
 		result.push("Professor came to class just to read off slides, didn't seem to ever prepare for each lecture");
 		result.push("Interesting, good professor, moderately difficult exams");
-		result.push("professor explains well");
-		
+		result.push("professor explains well");		
 	}
+	else if(sub[1] == " Introduction to Data Mining") {
+		result.push("Difficult exam, Professor is ok, TAs are arrogant");
+		result.push("difficult project, decent professor, lot of hard work");
+		result.push("diffidult exams, prfessor is not that great..and difficult to discern his accent.");
+		result.push("Professor not good");
+		result.push("The TA's could have been more responsive on Piazza, Some assignments were lame");
+		result.push("tough exams, professor doesn't cover material, useless quizzes");
+	}
+	else if(sub[1] == " Real-Time Systems")
+	{
+		result.push("easy exams, interesting lab");
+	}
+	else if(sub[1] == " Distributed Systems")
+	{
+		result.push("awesome professor, really interesting, useful");
+		result.push("Good professor, very helpful TAs, excellent coverage of topics in the field");
+		result.push("Great instuctor and grat subject. But difficult MPS!!");
+		result.push("Lengthy exams, professor explains well, helpful TAs");
+		result.push("moderately difficult exams, only 2 MPs, homework assignments are moderate");
+	}
+	else if(sub[1] == " Applied Parallel Programming")
+	{
+		result.push("Better TA participation expected on Piazza. There should be atleast one MP for hands on experience in MPI.");
+	}
+	else if(sub[1] == " Advanced Data Management")
+	{
+		result.push("all the good things");
+	}
+	else if(sub[1] == " Data Mining Principles")
+	{
+		result.push("great instructor, lots of reading");
+	}
+	else if(sub[1] == " Topics in Software Engineering")
+	{
+		result.push("nearly no content, completely unrelated to the course description, just focused on TA's projects");
+		result.push("professor explains well, helpful TAs");
+	}
+	else if(sub[1] == " Social and Economic Networks")
+	{
+		result.push("A little heavy on Math, well structured course, a few trivial assignments");
+		result.push("easy assignments, no exams, nice professor");
+	}
+	else if(sub[1] == " Data-Driven Design")
+	{
+		result.push("A lot of paper reading and critiquing although the set of papers were very interesting");
+	}
+	else if(sub[1] == " Freshman Orientation")
+	{
+		result.push("Boring lectures mostly, easy A.");
+		result.push("Easiest A");
+		result.push("interesting speakers");
+		result.push("It would have been great if our TA had actually given us advice and checked our homework. However, she did not do anything and didn't even look at our final projects. Other than that, it was a pretty easy class!");
+		result.push("weekly quiz on guest speakers");
+	}
+	else if(sub[1] == " Intro to Computer Science")
+	{
+		result.push("much harder than it sounds");
+		result.push("MP's were difficult, but manageable given enough time.");
+		result.push("professor very interesting, engaging lectures, easy mps.");
+		result.push("The professor is okay. I wish Angrave taught the class though. However, TA's and CA's were really helpful. Only one of the midterms was legitimately hard. The professor and TA made sure to offer extra credit and help boost our grades. Fairly easy and manageable class!");
+	}
+	else if(sub[1] == " Discrete Structures")
+	{
+		result.push("Basic, important knowledge")
+		result.push("hard content")
+		result.push("Very helpful TAs")
+	}
+	else if(sub[1] == " Data Structures")
+	{
+		result.push("difficult multiple choice, do the extra credit for mps");
+		result.push("Helpful TA's");
+		result.push("middle difficulty exams, somehow boring instructor, helpful TAs.");
+		result.push("Solid class");
+		result.push("Very hard to get help in the class unless you start really early for the MP because of the way Chara queue works");
+	}
+	else if(sub[1] == " Programming Studio")
+	{
+		result.push("Lots of programming. No exams.");
+		result.push("Needs to be more organized");
+		result.push("No exams, don't need to go to lecture");
+	}
+	else if(sub[1] == " Artificial Intelligence")
+	{
+		result.push("horrible professor, easy exams, okay MPs");
+		result.push("teachers are hard to understand. exams are tough.");
+	}
+	else if(sub[1] == " Security Laboratory")
+	{
+		result.push("Good, light work load course");
+	}
+	else if(sub[1] == " 461 Computer Security I")
+	{
+		result.push("easy exam, interesting material and mp, great professor");
+	}
+	else if(sub[1] == " Introduction to Bioinformatics")
+	{
+		result.push("easy class, small class, slow lectures, dynamic programming, easy exams");
+	}
+	else if(sub[1] == " Fundamental Algorithms")
+	{
+		result.push("hard class, confusing homeworks and exams, helpful TAs, stressful, find a group early");
+	}
+	else if(sub[1] == " Algorithms and Models of Computation")
+	{
+		result.push("difficult exams, professor explains well");
+	}
+	else if(sub[1] == " Probability in Computer Science")
+	{
+		result.push("Makes theory interesting, but little to none of it appears on the hw... which I am grateful of");
+		result.push("not very interesting, disorganized, but the professor tries his best to help students actually understand the materials");
+	}
+
 return result;
 }
 
@@ -322,14 +895,87 @@ function getInterestingRatings(text) {
 	if(text == 446) {
 		rating = 0.4;
 	}
-	else if (467) {
-		rating = 0.6;
+	else if(text = 241) {
+		rating = 0.7;//3.5
 	}
-	else if(412) {
-		rating = 0.6;
+	else if(text == 467) {
+		rating = 0.7;//3.5
 	}
-	else if(241) {
-		rating = 0.7;
+	else if(text == 465) {
+		rating = 0.8;//4
+	}
+	else if(text == 233) {
+		rating = 0.8;//4
+	}
+	else if(text == 411) {
+		rating = 0.4;//2
+	}
+	else if(text == 412) {
+		rating = 0.5;//2.5
+	}
+	else if(text == 424)
+	{
+		rating = 0.4;//2
+	}
+	else if(text == 425)
+	{
+		rating = 0.8;//4
+	}
+	else if(text == 511)
+	{
+		rating = 0.4;//2
+	}
+	else if(text == 512)
+	{
+		rating = 0.6;//3
+	}
+	else if(text == 598)
+	{
+		rating = 0.8;//4
+	}
+	else if(text == 598)
+	{
+		rating = 0.8;//4
+	}
+	else if(text == 125)
+	{
+		rating = 0.8;//4
+	}
+	else if(text == 173)
+	{
+		rating = 0.6;//3
+	}
+	else if(text == 225)
+	{
+		rating = 0.9;//4.5
+	}
+	else if(text == 242)
+	{
+		rating = 0.7;//3.5
+	}
+	else if(text == 440)
+	{
+		rating = 0.6;//3
+	}
+	else if(text == 461)
+	{
+		rating = 1.0;//5
+	}
+	else if(text == 466)
+	{
+		rating = 0.8;//4
+	}
+	else if(text == 473)
+	{
+		rating = 0.8;//4
+	}
+	else if(text == 498)
+	{
+		rating = 0.8;//4
+	}
+	else if(text == 498)
+	{
+		rating = 0.8;//4
 	}
 	return rating;
 }
@@ -338,15 +984,88 @@ function getDifficlutyRatings(text) {
 	var rating = "";
 	//alert(text);
 	if(text == 446) {
-		rating = 0.8;
+		rating = 0.9;
 	}
-	else if (467) {
+	else if(text = 241) {
 		rating = 0.6;
 	}
-	else if(412) {
-		rating = 0.8;
+	else if(text == 467) {
+		rating = 0.4;
 	}
-	else if(241) {
+	else if(text == 465) {
+		rating = 0.4;
+	}
+	else if(text == 233) {
+		rating = 0.4;
+	}
+	else if(text == 411) {
+		rating = 0.4;
+	}
+	else if(text == 412) {
+		rating = 0.4;
+	}
+	else if(text == 424)
+	{
+		rating = 0.4;
+	}
+	else if(text == 425)
+	{
+		rating = 0.4;
+	}
+	else if(text == 511)
+	{
+		rating = 0.4;
+	}
+	else if(text == 512)
+	{
+		rating = 0.4;
+	}
+	else if(text == 598)
+	{
+		rating = 0.4;
+	}
+	else if(text == 598)
+	{
+		rating = 0.4;
+	}
+	else if(text == 125)
+	{
+		rating = 0.4;
+	}
+	else if(text == 173)
+	{
+		rating = 0.4;
+	}
+	else if(text == 225)
+	{
+		rating = 0.4;
+	}
+	else if(text == 242)
+	{
+		rating = 0.4;
+	}
+	else if(text == 440)
+	{
+		rating = 0.4;
+	}
+	else if(text == 461)
+	{
+		rating = 0.4;
+	}
+	else if(text == 466)
+	{
+		rating = 0.4;
+	}
+	else if(text == 473)
+	{
+		rating = 0.4;
+	}
+	else if(text == 498)
+	{
+		rating = 0.4;
+	}
+	else if(text == 498)
+	{
 		rating = 0.4;
 	}
 	return rating;
@@ -354,6 +1073,7 @@ function getDifficlutyRatings(text) {
 
 
 function launchAlert(subjectCode) {
+	console.log("Launching alert for " + subjectCode);
 	 $("#dialog-5").dialog({
         title: giveSubjectName(subjectCode),
         autoOpen: false,
@@ -362,6 +1082,7 @@ function launchAlert(subjectCode) {
     });
 
 	var prerequisites = givePrerequisites(giveSubjectName(subjectCode));
+	console.log("prerequisites for " + subjectCode + " : " + prerequisites);
 	var continuation = giveContinuationSubjects(giveSubjectName(subjectCode));
 
    ($("#dialog-5").dialog("isOpen") == false) ? $("#dialog-5").dialog("open") : $("#dialog-5").dialog("close") ;
@@ -414,7 +1135,7 @@ function launchAlert(subjectCode) {
 	function startSemantria(text) {
 		var initialTexts = getInitialText(text);
 		
-		log("<h3>" + text +"</h3>");
+		//log("<h3>" + text +"</h3>");
 		// session is a global object
 		SemantriaActiveSession = new Semantria.Session(consumerKey, consumerSecret, "myApp");
 		SemantriaActiveSession.override({

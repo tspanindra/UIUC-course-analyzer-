@@ -1,20 +1,53 @@
-.flowchart-demo .item { border:3px solid #333;
-box-shadow: 2px 2px 19px #aaa;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end css reset */
+body{
+	background-color: #333;
+}
+
+.name {
+	font-size : 1.3em;	
+}
+
+.flowchart-demo .item { border:3px solid #777;
+/*box-shadow: 2px 2px 19px #aaa;
    -o-box-shadow: 2px 2px 19px #aaa;
    -webkit-box-shadow: 2px 2px 19px #aaa;
    -moz-box-shadow: 2px 2px 19px #aaa;
 -moz-border-radius:0.5em;
+opacity:0.8;*/
 border-radius:0.5em;
-opacity:0.8;
 filter:alpha(opacity=80);
-
+background-color: #fff;
 text-align:center;
 z-index:20; position:absolute;
 color:black;
 font-family:helvetica;padding:0.5em;
 font-size:1em;
-  width: 45px;
-  height: 45px;
+  width: 2.6em;
+  height: 2.6em;
 }
 
 .flowchart-demo .item:hover {
@@ -53,56 +86,67 @@ font-size:1em;
 	border:1px solid white;
 }
 
-
 /** ELEMENT POSITIONS **/
-#undergrad {width:930px; position: absolute;
+#undergrad {width:58.8em; position: absolute;
   left: 50%;
-  margin-left: -465px;}
+  margin-left: -29.4em;}
+  
+#department {color:#EE0;}
+#student {color:#08F;}
+#both {color:#33FF00;}
+#legend { 
+text-align:left;
+z-index:20; position:absolute;
+font-family:helvetica;padding:0.5em;
+font-size:0.8em;
+left:48em;top:0.3em;position:absolute;}
 
-#CS100 { left:0px;top:0px;position:absolute;}
-#CS103 { left:400px;top:0px;position:absolute;}
+#CS100 { left:0em;top:0.3em;position:absolute;}
+#CS103 { left:25em;top:0.3em;position:absolute;}
 
-#CS125 { left:0px;top:70px;position:absolute;}
+#CS125 { left:0em;top:5em;position:absolute;}
 
-#CS173 { left:0px;top:140px;position:absolute;}
-#CS225 { left:400px;top:140px;position:absolute;}
+#CS173 { left:0em;top:9.7em;position:absolute;}
+#CS225 { left:25em;top:9.7em;position:absolute;}
 
-#CS373 { left:0px;top:210px;position:absolute;}
-#CS411 { left:80px;top:210px;position:absolute;}
-#CS410 { left:160px;top:210px;position:absolute;}
-#CS233 { left:400px;top:210px;position:absolute;}
-#CS418 { left:720px;top:210px;position:absolute;}
-#CS466 { left:800px;top:210px;position:absolute;}
-#CS465 { left:880px;top:210px;position:absolute;}
+#CS373 { left:0em;top:14.4em;position:absolute;}
+#CS466 { left:5em;top:14.4em;position:absolute;}
+#CS418 { left:10em;top:14.4em;position:absolute;}
+#CS233 { left:25em;top:14.4em;position:absolute;}
+#CS210 { left:30em;top:14.4em;position:absolute;}
+#CS410 { left:45em;top:14.4em;position:absolute;}
+#CS411 { left:50em;top:14.4em;position:absolute;}
+#CS465 { left:55em;top:14.4em;position:absolute;}
 
-#CS412 { left:160px;top:280px;position:absolute;}
-#CS241 { left:400px;top:280px;position:absolute;}
-#CS419 { left:720px;top:280px;position:absolute;}
-#CS473 { left:800px;top:280px;position:absolute;}
-#CS467 { left:880px;top:280px;position:absolute;}
+#CS473 { left:5em;top:19.1em;position:absolute;}
+#CS419 { left:10em;top:19.1em;position:absolute;}
+#CS241 { left:25em;top:19.1em;position:absolute;}
+#CS412 { left:50em;top:19.1em;position:absolute;}
+#CS467 { left:55em;top:19.1em;position:absolute;}
 
-#CS357 { left:0px;top:350px;position:absolute;}
-#CS426 { left:80px;top:350px;position:absolute;}
-#CS431 { left:160px;top:350px;position:absolute;}
-#CS438 { left:240px;top:350px;position:absolute;}
-#CS423 { left:320px;top:350px;position:absolute;}
-#CS242 { left:400px;top:350px;position:absolute;}
-#CS440 { left:560px;top:350px;position:absolute;}
-#CS461 { left:640px;top:350px;position:absolute;}
-#CS498-AMC { left:800px;top:350px;position:absolute;}
-#CS498-SCI { left:880px;top:350px;position:absolute;}
+#CS421 { left:0em;top:23.8em;position:absolute;}
+#CS357 { left:45em;top:23.8em;position:absolute;}
+#CS498-AMC { left:5em;top:23.8em;position:absolute;}
+#CS431 { left:10em;top:23.8em;position:absolute;}
+#CS438 { left:15em;top:23.8em;position:absolute;}
+#CS423 { left:20em;top:23.8em;position:absolute;}
+#CS242 { left:25em;top:23.8em;position:absolute;}
+#CS440 { left:35em;top:23.8em;position:absolute;}
+#CS461 { left:40em;top:23.8em;position:absolute;}
+#CS498-SCI { left:55em;top:23.8em;position:absolute;}
 
-#CS498-PRO { left:0px;top:420px;position:absolute;}
-#CS477 { left:80px;top:420px;position:absolute;}
-#CS424 { left:160px;top:420px;position:absolute;}
-#CS427 { left:400px;top:420px;position:absolute;}
-#CS429 { left:480px;top:420px;position:absolute;}
-#CS446 { left:560px;top:420px;position:absolute;}
-#CS460 { left:640px;top:420px;position:absolute;}
+#CS498-PRO { left:45em;top:28.5em;position:absolute;}
+#CS424 { left:10em;top:28.5em;position:absolute;}
+#CS427 { left:25em;top:28.5em;position:absolute;}
+#CS429 { left:30em;top:28.5em;position:absolute;}
+#CS446 { left:35em;top:28.5em;position:absolute;}
+#CS460 { left:40em;top:28.5em;position:absolute;}
+#CS426 { left:50em;top:28.5em;position:absolute;}
 
-#CS450 { left:0px;top:490px;position:absolute;}
-#CS425 { left:160px;top:490px;position:absolute;}
-#CS428 { left:400px;top:490px;position:absolute;}
+#CS450 { left:45em;top:33.2em;position:absolute;}
+#CS425 { left:10em;top:33.2em;position:absolute;}
+#CS428 { left:25em;top:33.2em;position:absolute;}
+#CS477 { left:50em;top:33.2em;position:absolute;}
 
-#CS498-OSP { left:400px;top:560px;position:absolute;}
+#CS498-OSP { left:25em;top:37.9em;position:absolute;}
 
