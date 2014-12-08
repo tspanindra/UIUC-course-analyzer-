@@ -544,11 +544,11 @@ function log(message) {
 
 function logTheme(id, theme, sentiment_score, text) {
 	 	$('#themes').append("<span id ="+id+">"+ theme + "</span></br>");
-	 	var positive = ["#FF0000","#666666","#003366"];
-	 	var  negative = ["#00FF00", 	"#FFCC00", "#FF9900"]
+	 	var negative = ["#FF0000"];
+	 	var  positive = ["#00FF00"]
 	 	var select = [];
 	 	//alert(sentiment_score);
-	 	if(parseInt(sentiment_score) > 0) {
+	 	if(sentiment_score > 0.2) {
 	 		select = positive;
 	 	}
 	 	else {
@@ -603,11 +603,13 @@ function getCSSubjects() {
 			//console.log("change happened");
 			$('#themes').empty();
 			$('#rings').empty();
-			startSemantria($(this).text());
+			var subjectCode = $("#courseList option:selected").val().split(":");
+			//alert(subjectCode[0]);
+			startSemantria(subjectCode[0]);
 			drawVenn($("#courseList option:selected").val());		
 		});
 
-  		startSemantria(" Machine Learning");
+  		startSemantria("446");
 		drawVenn($("#courseList option:selected").val());
 	   }	
 	});
@@ -616,7 +618,7 @@ function getCSSubjects() {
 function drawVennDiagram(subjectCode1, subjectCode2, subjectCode3, id, subjectInfo) {
 	//alert(giveSubjectName(subjectCode1));
 
-	var sets = [{label: ""+subjectCode2, size: 12}, {label: ""+subjectCode1, size: 14}, {label: ""+subjectCode3, size: 12}],
+	var sets = [{label: ""+subjectCode2, size: 13}, {label: ""+subjectCode1, size: 18}, {label: ""+subjectCode3, size: 13}],
     overlaps = [{sets: [0,1], size: 2},{sets: [1,2], size: 2},{sets: [0,2], size: 0}];
 	var colours = ['black', 'red', 'blue', 'green'];
 	             
@@ -654,9 +656,13 @@ function drawVenn(text) {
 	var sub = text.split(":");
 	var recommendedSubjects = giveRecommendedSubjects(sub[1]);
 	//console.log("recommendedSubjects  " + recommendedSubjects)
+	
+	$('#subjects').text("Subjects Taken Along with this : " + sub[1]);
+
 	var subjectCodes = [];
 	for(var i = 0; i < recommendedSubjects.length; i++) {
 		subjectCodes[i] = giveSubjectsCode(recommendedSubjects[i]);
+		$('#subject'+i).text(recommendedSubjects[i]);
 		//console.log("sub code for " + recommendedSubjects[i] + " : " + subjectCodes[i])
 	}
 
@@ -664,17 +670,16 @@ function drawVenn(text) {
 }
 
 function getInitialText(text) {
-	var sub = text.split(":");
 var result = [];
-	if(sub[1] == " Machine Learning") {
+	if(text == " Machine Learning") {
 		result.push("Great course. Theoretical and Abstract. Great concepts and ideas. Would be helpful to have a good foundation in Linear Algebra, Probability and some Linear Programming.");
 		result.push("teachers are hard to understand. exams are tough.");
-		result.push("Difficult course, hard assignments, helpful TAs");
-		result.push("A lot of paper reading and critiquing although the set of papers were very interesting");
-		result.push("horrible professor, easy exams, okay MPs");
+		result.push("Difficult course, hard assignments, helpful TAs.");
+		result.push("A lot of paper reading and critiquing although the set of papers were very interesting.");
+		result.push("horrible professor, easy exams, okay MPs.");
 		result.push("Awesomeness personified!!");
 	}
-	else if(sub[1] = " System Programming") {
+	else if(text == " System Programming") {
 		result.push("so difficult, worth the effort, great professor");
 		result.push("easy exam, interesting material and mp, great professor");
 		result.push("Very hard to get help in the class unless you start really early for the MP because of the way Chara queue works");
@@ -686,31 +691,31 @@ var result = [];
 		result.push("great TAs and instructor");
 		result.push("professor difficult to understand");getInitialText
 	}
-	else if(sub[1] == " Social visualization") {
+	else if(text == " Social visualization") {
 		result.push("great professor..! But too much work. Too many designs and project implementations!");
 		result.push("Project heavy course, interesting lectures, great professor");
 		result.push("creativity, interesting, helpful professor, learning a lot");
 	}
-	else if(sub[1] == " User Interface Design") {
+	else if(text == " User Interface Design") {
 		result.push("great professor..! But too much work. Too many designs and project implementations!");
 		result.push("Great lecturing professor, needs more application of learned material");
 		result.push("Hard exams.  Easy projects.");
 		result.push("pay attention in class. the lectures are actually very interesting and practical.");
 	}
-	else if(sub[1] == " Computer Architecture") {
+	else if(text == " Computer Architecture") {
 		result.push("so difficult, worth the effort, great professor");
 		result.push("professor explains well, lectures are engaging, very helpful TAs, interesting TAs.");
 		result.push("middle difficulty exams, somehow boring instructor, helpful TAs.");
 		result.push("great TAs and instructor");
 		result.push("Don't get behind, he moves fast");
 	}
-	else if(sub[1] == " Database Systems") {
+	else if(text == " Database Systems") {
 		result.push("Needs better class structure, too theoretical, lacks application of knowledge");
 		result.push("Professor came to class just to read off slides, didn't seem to ever prepare for each lecture");
 		result.push("Interesting, good professor, moderately difficult exams");
 		result.push("professor explains well");		
 	}
-	else if(sub[1] == " Introduction to Data Mining") {
+	else if(text == " Introduction to Data Mining") {
 		result.push("Difficult exam, Professor is ok, TAs are arrogant");
 		result.push("difficult project, decent professor, lot of hard work");
 		result.push("diffidult exams, prfessor is not that great..and difficult to discern his accent.");
@@ -718,11 +723,11 @@ var result = [];
 		result.push("The TA's could have been more responsive on Piazza, Some assignments were lame");
 		result.push("tough exams, professor doesn't cover material, useless quizzes");
 	}
-	else if(sub[1] == " Real-Time Systems")
+	else if(text == " Real-Time Systems")
 	{
 		result.push("easy exams, interesting lab");
 	}
-	else if(sub[1] == " Distributed Systems")
+	else if(text == " Distributed Systems")
 	{
 		result.push("awesome professor, really interesting, useful");
 		result.push("Good professor, very helpful TAs, excellent coverage of topics in the field");
@@ -730,33 +735,33 @@ var result = [];
 		result.push("Lengthy exams, professor explains well, helpful TAs");
 		result.push("moderately difficult exams, only 2 MPs, homework assignments are moderate");
 	}
-	else if(sub[1] == " Applied Parallel Programming")
+	else if(text == " Applied Parallel Programming")
 	{
 		result.push("Better TA participation expected on Piazza. There should be atleast one MP for hands on experience in MPI.");
 	}
-	else if(sub[1] == " Advanced Data Management")
+	else if(text == " Advanced Data Management")
 	{
 		result.push("all the good things");
 	}
-	else if(sub[1] == " Data Mining Principles")
+	else if(text == " Data Mining Principles")
 	{
 		result.push("great instructor, lots of reading");
 	}
-	else if(sub[1] == " Topics in Software Engineering")
+	else if(text == " Topics in Software Engineering")
 	{
 		result.push("nearly no content, completely unrelated to the course description, just focused on TA's projects");
 		result.push("professor explains well, helpful TAs");
 	}
-	else if(sub[1] == " Social and Economic Networks")
+	else if(text == " Social and Economic Networks")
 	{
 		result.push("A little heavy on Math, well structured course, a few trivial assignments");
 		result.push("easy assignments, no exams, nice professor");
 	}
-	else if(sub[1] == " Data-Driven Design")
+	else if(text == " Data-Driven Design")
 	{
 		result.push("A lot of paper reading and critiquing although the set of papers were very interesting");
 	}
-	else if(sub[1] == " Freshman Orientation")
+	else if(text == " Freshman Orientation")
 	{
 		result.push("Boring lectures mostly, easy A.");
 		result.push("Easiest A");
@@ -764,20 +769,20 @@ var result = [];
 		result.push("It would have been great if our TA had actually given us advice and checked our homework. However, she did not do anything and didn't even look at our final projects. Other than that, it was a pretty easy class!");
 		result.push("weekly quiz on guest speakers");
 	}
-	else if(sub[1] == " Intro to Computer Science")
+	else if(text == " Intro to Computer Science")
 	{
 		result.push("much harder than it sounds");
 		result.push("MP's were difficult, but manageable given enough time.");
 		result.push("professor very interesting, engaging lectures, easy mps.");
 		result.push("The professor is okay. I wish Angrave taught the class though. However, TA's and CA's were really helpful. Only one of the midterms was legitimately hard. The professor and TA made sure to offer extra credit and help boost our grades. Fairly easy and manageable class!");
 	}
-	else if(sub[1] == " Discrete Structures")
+	else if(text == " Discrete Structures")
 	{
 		result.push("Basic, important knowledge")
 		result.push("hard content")
 		result.push("Very helpful TAs")
 	}
-	else if(sub[1] == " Data Structures")
+	else if(text == " Data Structures")
 	{
 		result.push("difficult multiple choice, do the extra credit for mps");
 		result.push("Helpful TA's");
@@ -785,38 +790,38 @@ var result = [];
 		result.push("Solid class");
 		result.push("Very hard to get help in the class unless you start really early for the MP because of the way Chara queue works");
 	}
-	else if(sub[1] == " Programming Studio")
+	else if(text == " Programming Studio")
 	{
 		result.push("Lots of programming. No exams.");
 		result.push("Needs to be more organized");
 		result.push("No exams, don't need to go to lecture");
 	}
-	else if(sub[1] == " Artificial Intelligence")
+	else if(text == " Artificial Intelligence")
 	{
 		result.push("horrible professor, easy exams, okay MPs");
 		result.push("teachers are hard to understand. exams are tough.");
 	}
-	else if(sub[1] == " Security Laboratory")
+	else if(text == " Security Laboratory")
 	{
 		result.push("Good, light work load course");
 	}
-	else if(sub[1] == " 461 Computer Security I")
+	else if(text == " 461 Computer Security I")
 	{
 		result.push("easy exam, interesting material and mp, great professor");
 	}
-	else if(sub[1] == " Introduction to Bioinformatics")
+	else if(text == " Introduction to Bioinformatics")
 	{
 		result.push("easy class, small class, slow lectures, dynamic programming, easy exams");
 	}
-	else if(sub[1] == " Fundamental Algorithms")
+	else if(text == " Fundamental Algorithms")
 	{
 		result.push("hard class, confusing homeworks and exams, helpful TAs, stressful, find a group early");
 	}
-	else if(sub[1] == " Algorithms and Models of Computation")
+	else if(text == " Algorithms and Models of Computation")
 	{
 		result.push("difficult exams, professor explains well");
 	}
-	else if(sub[1] == " Probability in Computer Science")
+	else if(text == " Probability in Computer Science")
 	{
 		result.push("Makes theory interesting, but little to none of it appears on the hw... which I am grateful of");
 		result.push("not very interesting, disorganized, but the professor tries his best to help students actually understand the materials");
@@ -1066,13 +1071,14 @@ function launchAlert(subjectCode) {
 
 }
 
-	function processResponse(items, text) {
-		
+	function processResponse(items, subjectCode) {
+		var subName = giveSubjectName(subjectCode);
 		for(var i = 0; i < items.length; i ++ ) {
 			var themes = items[i]['themes'];
 			for(var j = 0; j < themes.length; j++) {
 				//alert(items[i]['themes'][j]['title']);
-				logTheme(j, themes[j]['title'], themes[j]['sentiment_score'], text);
+				//alert(subName + "\n" + j + "\n" + themes[j]['title'] + "\n" + themes[j]['sentiment_score']);
+				logTheme(j, themes[j]['title'], themes[j]['sentiment_score'], subName);
 				
 			}
 		}
@@ -1084,12 +1090,13 @@ function launchAlert(subjectCode) {
 		log("Retrieving your processed results...");
 
 		var items = SemantriaActiveSession.getProcessedCollections();
+		//alert(JSON.stringify(items));
 		processResponse(items, text);
 	}
 
 
-	function startSemantria(text) {
-		var initialTexts = getInitialText(text);
+	function startSemantria(subjectCode) {
+		var initialTexts = getInitialText(giveSubjectName(subjectCode));
 		
 		//log("<h3>" + text +"</h3>");
 		// session is a global object
@@ -1127,5 +1134,6 @@ function launchAlert(subjectCode) {
 			if (status == 202) {
 				log("Document# " + id + " queued successfully");
 			}
-		receiveResponse(status.length, text);
+			//alert(subjectCode+ initialTexts);
+		    receiveResponse(status.length, subjectCode);
 	}
