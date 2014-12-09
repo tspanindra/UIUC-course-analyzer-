@@ -665,6 +665,19 @@ function drawVenn(text) {
 		$('#subject'+i).text(recommendedSubjects[i]);
 		//console.log("sub code for " + recommendedSubjects[i] + " : " + subjectCodes[i])
 	}
+	$('#comments').find('#commentsList').empty();
+			var comments = getInitialText(sub[1]);
+			console.log("no. of comments for " + sub[1] + " : " + comments.length)
+			for(var i = 0; i < comments.length ; i ++)
+			{
+			console.log("comment : " + comments[i]);
+			var listOption = $('<li><span>.</span><p>'+comments[i]+'</p></li>');
+			    console.log("list added : " + listOption);
+			 
+			$('#comments').find("#commentsList").append(listOption);
+				console.log("size of list is now " + document.getElementById("commentsList").length);
+			}
+
 
 	drawVennDiagram(sub[0], subjectCodes[0], subjectCodes[1], "rings", "subjectInfo");	
 }
