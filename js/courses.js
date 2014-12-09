@@ -1087,7 +1087,7 @@ function launchAlert(subjectCode) {
 	function receiveResponse(entitiesCount, text) {
 		
 		var analyticData = [];
-		log("Retrieving your processed results...");
+		//log("Retrieving your processed results...");
 
 		var items = SemantriaActiveSession.getProcessedCollections();
 		//alert(JSON.stringify(items));
@@ -1132,7 +1132,7 @@ function launchAlert(subjectCode) {
 				
 			// Check status from Semantria service
 			if (status == 202) {
-				log("Document# " + id + " queued successfully");
+				//log("Document# " + id + " queued successfully");
 			}
 			//alert(subjectCode+ initialTexts);
 		    receiveResponse(status.length, subjectCode);
